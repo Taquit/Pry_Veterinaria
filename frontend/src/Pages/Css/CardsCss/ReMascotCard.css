@@ -1,0 +1,99 @@
+/* 
+Paleta de colores:
+#fc560b (naranja)
+#ffe4cc (naranja claro)
+#f9a61a (amarillo)
+#114050 (azul oscuro)
+*/
+
+.mascotCard-section{
+    display: flex;
+    justify-content: center;
+    width: 93%;
+    padding: 0px;
+    gap: 24px;
+    margin: 0 auto;
+    padding-top: 1%;
+    
+}
+
+.mascotCard-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  width: auto;
+  margin-bottom: 12px;  
+
+}
+
+.mascotCard-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: black 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+.mascotCard-form{
+    display: grid;
+    grid-template-columns: auto auto auto auto ; 
+    gap: 10px 16px;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5%;
+    width: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    align-content: start;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+.mascotCard-form  label, input, select{
+    grid-column:auto;
+    align-self: center;
+}
+.mascotCard-form > input{
+    width: 200px;
+}
+
+.mascotCard-form > label{
+    font-weight: bold;
+    margin-right: 10px;
+    justify-self: end;
+}
+.mascotCard-form > div{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  align-items: center;
+  gap: 10px;
+  margin-left: 10%;
+}
+
+.mascotCard-form > div label{
+  width: 90%;
+  align-items: end;
+}
+
+.mascotCard-form > div label:has(input[type="checkbox"]){
+  grid-column: span 2;  
+  font-size: small;
+}
+
+.mascotCard-form .padecimientos{
+  grid-column: 2 / -1;
+  width: 100%;
+}
+
+.mascotCard-header button.rmv-button{
+  margin: 4px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  background-color: #fc560b;
+  border-radius: 10px;
+  padding: 3px;
+  color: #f9f9f9;
+  
+}

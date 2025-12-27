@@ -1,0 +1,19 @@
+
+# Django
+Django>=5.0,<6.0
+
+# Django REST Framework
+djangorestframework
+
+# PostgreSQL
+psycopg2-binary
+
+# CORS (React ↔ Django)
+django-cors-headers
+
+# Variables de entorno
+python-dotenv
+
+# Utilidades comunes
+Pillow
+django-filter

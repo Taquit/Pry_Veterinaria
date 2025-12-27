@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+.tienda-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  /*background-color: #c59797;*/
+  height: 100%;
+  align-items: center;
+  
+}
+
+#root{
+  max-width: 100%;
+  height: 400vh;
+  /*background-color: rgb(121, 14, 14);*/
+  padding: 0;
+  margin: 0;
+}
+
+.tienda-conttitle{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffe4cc;
+  width: 95%;
+  height: 6%;
+  border-radius: 1vw;
+}
+
+.tienda-title{
+  font-size: 3vw;
+  font-weight: 700;
+  color: #114050;
+}
+
+.tienda-items{
+  /*background-color: aquamarine;*/
+  width: 95%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.tienda-item{
+
+  background-color: #ffe4cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  gap: 1vh;
+  padding:1vw;
+  border-radius: 1vw;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.tienda-item:hover,
+.tienda-button:hover .tienda-itemname,
+.tienda-button:hover .tienda-priceitem,
+.tienda-button:hover .tienda-descriptionitem,
+.tienda-button:hover .tienda-button{
+  color:#ffffff;
+  transform: scale(1.05);
+  background-color: #114050;
+}
+
+.tienda-itemimg{
+  width: 95%;
+  height: 60%;
+   border-radius: 1vw;
+}
+
+.tienda-itemname{
+  margin-top: 2vh;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #fc560b;
+}
+
+.tienda-priceitem{
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: #fc560b;
+}
+
+.tienda-descriptionitem{
+  font-size: 1vw;
+  font-weight: 500;
+  color: #fc560b;
+  text-align: justify;
+}
+
+.tienda-button{
+  margin-top: 2vh;
+  padding: 0.8vw 2vw;
+  background-color: #114050;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-weight: 700; 
+}
+/*.tienda-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tienda-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+
+.tienda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.tienda-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tienda-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.tienda-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.tienda-item h4 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.tienda-item p {
+  font-size: 16px;
+  color: #0077cc;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.tienda-item .descripcion {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.tienda-item button {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tienda-item button:hover {
+  background: #005fa3;
+}
+*/

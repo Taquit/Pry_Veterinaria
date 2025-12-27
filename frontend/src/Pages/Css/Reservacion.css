@@ -1,0 +1,101 @@
+/*
+.reservacion-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.reservacion-container h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+form {
+  background: #f9f9f9;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.4fr;
+  column-gap: 32px;
+  row-gap: 24px;
+}
+
+.form-section {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #333;
+}
+
+.form-section:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 18px 20px;
+}
+
+.form-section:nth-child(2) > label:first-of-type {
+  grid-column: 1 / -1;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 6px;
+  color: #444;
+}
+
+input, select, textarea {
+  padding: 10px 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-section:nth-child(2) textarea,
+.form-section:nth-child(1) label:last-of-type {
+  grid-column: 1 / -1;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+button {
+  display: block;
+  margin: 28px auto 0;
+  padding: 12px 28px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover { background: #005fa3; }
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+ Responsive */
+

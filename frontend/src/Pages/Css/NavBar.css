@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*
+:root {
+  --nav-h: 50px;
+}
+*/
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  color: #1f2937;
+  font-family: Poppins  , sans-serif;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height:14vh;
+  width: 100%;
+  background-color: #ffe4cc;
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  z-index: 1000;
+}
+
+.n {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /*background: #195dd2;*/
+  width: 50%;
+}
+
+.texto{
+    font-weight: 900;
+    font-size: 2vw;
+    color: #fc560b;
+}
+
+
+
+.links {
+  display: flex;
+  align-items:center;
+  /*background-color: rgba(0, 255, 238, 0.313);*/
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  gap: 5vw;
+}
+
+
+.link{
+  /*background-color: #195dd2;*/
+  color: #fc560b;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2vw;
+   transition: color 0.3s, transform 0.3s;
+}
+
+.link:hover {
+  color: #114050; /* Elige el color que prefieras */
+  transform: scale(1.6);
+}
+
+.navbar .links li a {
+  color: #ffffff;
+}
+.navbar .links li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0 0 20px;
+  color: #1976d2;
+}
+/*
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto 24px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+*/
