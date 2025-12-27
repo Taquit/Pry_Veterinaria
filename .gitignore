@@ -1,0 +1,38 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+db.sqlite3
+.env
+.venv/
+env/
+
+# ======================
+# Django media / static
+# ======================
+media/
+staticfiles/
+
+# ======================
+# Node / React / Vite
+# ======================
+node_modules/
+dist/
+.vite/
+
+# ======================
+# Docker
+# ======================
+*.pid
+docker-data/
+postgres_data/
+
+# ======================
+# Editor / OS
+# ======================
+.vscode/
+.idea/
+.DS_Store
