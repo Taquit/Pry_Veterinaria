@@ -1,0 +1,62 @@
+id_tipo,id_vac,nombre_vac,via_admin,importancia,tiempo_min,tiempo_max
+1,1,Bordetella (Bronchiseptica),"Intranasal u oral (también existe presentación inyectable SQ, según producto)",No Esencial,182,365
+1,2,Leptospira,Inyectable (SC; algunas marcas permiten IM),No Esencial,365,365
+1,3,Borrelia Burgdorferi,Inyectable (SC),No Esencial,365,365
+1,4,Influenza Canina (H3N8 y H3N2),Inyectable (SC),No Esencial,365,365
+1,5,Toxoide de Crotalus Atrox,Inyectable (SC),No Esencial,182,365
+1,6,Moquillo Canino,Inyectable (SC; usualmente dentro de vacuna combinada),Esencial,365,1095
+1,7,Adenovirus (Hepatitis Infecciosa),Inyectable (SC; hoy se protege típicamente con CAV-2 en combinadas),Esencial,365,1095
+1,8,Adenovirus (Hepatitis Infecciosa),Inyectable (SC),Esencial,365,1095
+1,9,Parvovirus,Inyectable (SC),Esencial,365,1095
+1,10,Rabia,Inyectable (SC o IM; depende de etiqueta/localidad),Esencial,365,1095
+1,11,Combinadas,Inyectable (SC),No Esencial,365,1095
+2,12,FELINE 1 HCP+FeLV,"Inyectable (SC o IM, según ficha)",Esencial,365,1095
+2,13,FELINE 2-FeLV,"Inyectable (SC o IM, según ficha)",No Esencial,365,1095
+2,14,RABIA,Inyectable (SC o IM),Esencial,365,1095
+2,15,TRICAT TRIO,Inyectable (SC),Esencial,365,1095
+2,16,DEFENSOR 1,Inyectable (SC),Esencial,365,365
+2,17,FELOCELL 3,Inyectable (SC; algunas etiquetas permiten IM),Esencial,365,1095
+2,18,FELIGREN CRP/R,Inyectable (SC; algunas etiquetas permiten IM),Esencial,365,1095
+2,19,FELIGREN CRP,Inyectable (SC),Esencial,365,1095
+2,20,LEUCOGEN,Inyectable (SC; algunas etiquetas permiten IM),No Esencial,365,1095
+3,21,Gallimune 302 ENC+BI+EDS,Biológicos Aviares,Uso según programa sanitario (avicultura),No aplica,No aplica
+3,22,Volvac AE+FP MLV,Biológicos Aviares,Uso según programa sanitario (avicultura),No aplica,No aplica
+3,23,Volvac Influenza FP Recombinante,Biológicos Aviares,Uso según programa sanitario (avicultura),No aplica,No aplica
+3,24,Volvac ND+IB MLV,Biológicos Aviares,Uso según programa sanitario (avicultura),No aplica,No aplica
+3,26,Lapigen 100,Antibioticos inyectables,No aplica,No aplica,No aplica
+3,27,Lapigen 50,Antibioticos inyectables,No aplica,No aplica,No aplica
+3,28,Minoxel,Antibioticos inyectables,No aplica,No aplica,No aplica
+3,29,Minoxel 8G,Antibioticos inyectables,No aplica,No aplica,No aplica
+3,30,Diramox Soluble,Antibioticos solubles,No aplica,No aplica,No aplica
+3,31,Espectolin Polvo Soluble,Antibioticos solubles,No aplica,No aplica,No aplica
+3,32,Ne-O-Tetra,Antibioticos solubles,No aplica,No aplica,No aplica
+3,33,Primecin Soluble,Antibioticos solubles,No aplica,No aplica,No aplica
+3,34,Sulfatropin Plus,Antibioticos solubles,No aplica,No aplica,No aplica
+3,35,Diramox Premix,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,36,Diramox Premix 50%,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,37,Flortec Premix,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,38,Flortec Premix 8%,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,39,Kitacron Feed 110,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,40,Lapi-Resp FT,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,41,Neumo 200,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,42,Neumoclor 200,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,43,Primecin Premix,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,44,Sulfatropin Premezcla,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,45,Tiaprem,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,46,Tiaprem 50%,Antibióticos en Premezcla,No aplica,No aplica,No aplica
+3,47,Expectoral,Farmacéuticos,No aplica,No aplica,No aplica
+3,48,Electrolife,Farmacéuticos,No aplica,No aplica,No aplica
+3,49,Vitamix,Farmacéuticos,No aplica,No aplica,No aplica
+3,50,Garra Ban Mo 29,Larvicidas y Mosquicidas,No aplica,No aplica,No aplica
+3,51,Larvakill Premix,Larvicidas y Mosquicidas,No aplica,No aplica,No aplica
+3,52,Lomo Pon S,Larvicidas y Mosquicidas,No aplica,No aplica,No aplica
+3,53,Ticoff,Larvicidas y Mosquicidas,No aplica,No aplica,No aplica
+3,54,Trak,Larvicidas y Mosquicidas,No aplica,No aplica,No aplica
+4,55,Consulta inicial reptiles + revisión de hábitat + copro (si indicado),No aplica,Esencial,60,365
+4,56,Revisión anual + evaluación de dieta/UVB/calcio,No aplica,Esencial,30,365
+4,57,Revisión anual + copro (búsqueda de parásitos),No aplica,Esencial,30,365
+4,58,Revisión + control de hidratación/ambiente + copro,No aplica,Esencial,30,365
+4,59,Revisión + agua/filtración + educación de Salmonella/higiene,No aplica,Esencial,60,365
+4,60,Revisión + revisión de ectoparásitos (ácaros) + cuarentena de nuevos,No aplica,Esencial,30,365
+4,61,Revisión + control nutricional/UVB + copro,No aplica,Esencial,30,365
+4,62,Revisión + copro + control de ácaros/cuarentena,No aplica,Esencial,30,365

@@ -1,0 +1,20 @@
+id_subtipo,min_size,max_size,nivel_interaccion
+557,15,18,Alto
+558,13,13,Bajo/Medio
+559,10,12,Medio
+560,13,16,Alto
+561,35,35,Muy Alto
+562,25,35,Muy Alto
+563,33,33,Muy Alto
+564,40,60,Muy Alto
+565,50,50,Muy Alto
+566,34,34,Alto
+567,14,14,Bajo
+568,15,17,Bajo
+569,10,20,Medio
+570,15,25,Medio
+571,20,40,Bajo/Medio
+572,15,30,Bajo
+573,10,20,Medio
+574,40,60,Medio/Alto
+575,50,90,Bajo

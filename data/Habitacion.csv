@@ -1,0 +1,11 @@
+no_habit,estatus,costo,desc
+1,Disponible,800,Habitacion para perro pequeño con vista al jardin
+2,Ocupada,1200,Habitacion para dos perros con balcon
+3,Disponible,1500,Suite para perro grande con jacuzzi
+4,Mantenimiento,600,Habitacion sencilla para perro sin vista
+5,Disponible,1000,Habitacion para tres perros con terraza
+6,Ocupada,900,Habitacion para perro individual con vista a la piscina
+7,Disponible,1100,Habitacion para dos perros con vista al mar
+8,Mantenimiento,700,Habitacion sencilla para perro con balcon
+9,Disponible,1300,Suite ejecutiva para perro con sala de estar
+10,Ocupada,950,Habitacion para perro individual con jardin privado

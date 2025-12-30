@@ -1,0 +1,6 @@
+id_puesto,nombre,apellido_pat,apellido_mat,telefono,correo,usuario,contraseña
+1,Carlos,Gomez,Lopez,5551234567,carlos.gomez@example.com,carlosgomez,contrasena123
+4,Ana,Martinez,Ruiz,5559876543,ana.martinez@example.com,anamartinez,contrasena456
+5,Luis,Hernandez,Sanchez,5554567890,luis.hernandez@example.com,luis.hernandez,contrasena789
+2,Maria,Lopez,Gonzalez,5553216549,maria.lopez@example.com,marialopez,contrasena123
+3,Jose,Ramirez,Torres,5556543210,jose.ramirez@example.com,joseramirez,contrasena123
