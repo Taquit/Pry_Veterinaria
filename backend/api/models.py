@@ -165,6 +165,11 @@ class Mascota(models.Model):
     notas = models.TextField(blank=True, null=True)
 
 #Empleados
+class Puesto(models.Model):
+    id_puesto= models.BigAutoField(primary_key=True)
+    puesto = models.CharField(max_length=20)
+    desc = models.CharField(max_length=255)
+
 class Empleado(models.Model):
 
     id_empleado = models.BigAutoField(primary_key=True)
@@ -175,6 +180,63 @@ class Empleado(models.Model):
     telefono = models.CharField(max_length=15)
     email = models.EmailField(max_length=100, blank=True, null=True)
     contrasena = models.CharField(max_length=100)
+    id_puesto = models.ForeignKey(
+            'Puesto',
+            on_delete=models.PROTECT,
+            db_column= 'id_puesto'
+    )
 
 
 #Servicios
+class Habitacion(models.Model):
+
+    no_habit = models.BigAutoField(primary_key= True)
+    estatus = models.CharField(max_length=50)
+    costo = models.FloatField()
+    desc = models.TextField
+
+class  Servicio(models.Model):
+
+    id_servicio = models.BigAutoField(primary_key= True)
+    servicio = models.CharField(max_length=20)
+    costo = models.FloatField()
+    desc = models.CharField(max_length=255)
+
+#Reservaciones
+class Reservacion_(models.Model):
+    id_reservacion = models.BigAutoField(primary_key=True)
+    checke_in = models.DateTimeField()
+    checke_out = models.DateTimeField()
+    estatus = models.CharField(max_length=50)
+    id_dueño = models.ForeignKey(
+            'Dueño', 
+            on_delete=models.PROTECT,
+            db_column='id_dueño'
+    )
+    id_mascota = models.ForeignKey(
+            'Mascota',
+            on_delete=models.PROTECT,
+            db_column='id_mascota'
+    )
+
+class Reservacion_Servicio(models.Model):
+
+    id_res_serv = models.BigAutoField(primary_key=True)
+    precio_total = models.FloatField()
+    estatus = models.CharField(max_length=50)
+    notas = models.TextField(blank=True, null=True)
+    id_reservacion = models.ForeignKey(
+            'Reservacion_',
+            on_delete=models.PROTECT,
+            db_column='id_reservacion'
+    )
+    id_empleado = models.ForeignKey(
+            'Empleado',
+            on_delete=models.PROTECT,
+            db_column='id_empleado'
+    )
+    no_habit = models.ForeignKey(
+            'Habitacion',
+            on_delete=models.PROTECT,
+            db_column='no_habit'
+    )
