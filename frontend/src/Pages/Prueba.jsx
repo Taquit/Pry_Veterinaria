@@ -1,51 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import './Css/Reservacion.css'
-import axios from "axios";
 
-function Estetica() {
-  const [error, setError] = useState(null);
+function Estetica_2() {
   const [mesActual, setMesActual] = useState(new Date());
   const [diasSeleccionados, setDiasSeleccionados] = useState([]);
   const [habitacionSeleccionada, setHabitacionSeleccionada] = useState(null);
   const [mascotasSeleccionadas, setMascotasSeleccionadas] = useState([]);
   const [serviciosSeleccionados, setServiciosSeleccionados] = useState([]);
-  const [mascota,setMascota]=useState([]);
-  const [habitacion,setHabitacion]=useState([]);
-
-  
-
-  const fetchAll=async()=>{
-    const id_dueño=Number(localStorage.getItem("id_dueño") || "0")
-    if (!id_dueño){
-      setError("No hay id_dueño en localstorage. Inicia sesion");
-      console.log("No hay id_dueño en localstorage. Inicia sesion");
-      return;
-    }
-    try{
-      const [mascRes,habitRes]=await Promise.all([
-        axios.post(`http://localhost:8000/api/get-mas-by-id/`,{id_dueño:id_dueño}),
-        axios.get('http://localhost:8000/api/habitaciones/')
-      ])
-      console.log(mascRes.data)
-      console.log(habitRes.data)
-      setHabitacion(habitRes.data);
-      if (mascRes.data  &&  mascRes.data.mascotas){
-        setMascota(mascRes.data.mascotas);
-                    
-      }else{
-        console.log("Error al obtener mascotas")
-        setMascota([])
-                    
-      }  
-    }catch{
-      console.log("Algo salio mal")
-    }
-
-  }
-
-  useEffect(()=>{
-    fetchAll();
-  },[])
 
   const meses = [
     'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
@@ -54,13 +15,19 @@ function Estetica() {
 
   const diasSemana = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
 
+  const mascotas = [
+    { id: 1, nombre: 'Paquito', tipo: 'Perro' },
+    { id: 2, nombre: 'Guagua', tipo: 'Gato' },
+    { id: 3, nombre: 'Rocky', tipo: 'Perro' },
+    { id: 4, nombre: 'Luna', tipo: 'Gato' }
+  ];
 
-  const servicios = {3:'Paseo', 5:'SPA', 4:'Estética'};
-  const serviciosArr = Object.entries(servicios).map(([id, nombre]) => ({
-    id: Number(id),
-    nombre,
+  const servicios = ['Paseo', 'SPA', 'Estética'];
+
+  // Generar array de 30 habitaciones (todas disponibles)
+  const habitaciones = Array.from({ length: 30 }, (_, i) => ({
+    numero: i + 1
   }));
-
 
   const generarDiasCalendario = () => {
     const año = mesActual.getFullYear();
@@ -94,32 +61,6 @@ function Estetica() {
     return dias;
   };
 
-  // const crearReservacion = async () =>{
-  //   setError(null);
-    
-  //   const id_dueño=Number(localStorage.getItem("id_dueño")||"0")
-  //   if(!id_dueño) return setError("No has iniciado sesion")
-  //   if(mascotasSeleccionadas.length===0) return setError("Selecciona alguna mascota")
-  //   if(diasSeleccionados.length===0) return setError("Selecciona al menos un dia")
-  //   if(!habitacionSeleccionada) return setError("Selecciona una habitacion")
-  //   if(serviciosSeleccionados.length===0) return setError("Selecciona al menos un servicio")
-
-  //   const fechasOrdenadas = [...diasSeleccionados].sort()
-  //   const fecha_inicio=fechasOrdenadas[0]
-  //   const fecha_fin=fechasOrdenadas[fechasOrdenadas.length-1]
-
-  //   const payload={
-  //     id_dueño:id_dueño,
-  //     id_mascotas:mascotasSeleccionadas,
-  //     fechas:
-  //   }
-  // }
-
-  // const toDateObj = (yyyy_mm_dd)=>{
-  //   const [y,m,d]=yyyy_mm_dd.split("-").map(Number);
-  //   return new Date(y,m-1,d);
-  // }
-
   const toggleDia = (fechaCompleta) => {
     if (diasSeleccionados.includes(fechaCompleta)) {
       setDiasSeleccionados(diasSeleccionados.filter(d => d !== fechaCompleta));
@@ -130,16 +71,18 @@ function Estetica() {
 
   const toggleMascota = (mascotaId) => {
     if (mascotasSeleccionadas.includes(mascotaId)) {
-      setMascotasSeleccionadas(mascotasSeleccionadas.filter(id_mascota => id_mascota !== mascotaId));
+      setMascotasSeleccionadas(mascotasSeleccionadas.filter(id => id !== mascotaId));
     } else {
       setMascotasSeleccionadas([...mascotasSeleccionadas, mascotaId]);
     }
   };
 
-  const toggleServicio = (id) => {
-    setServiciosSeleccionados((prev) =>
-      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
-    );
+  const toggleServicio = (servicio) => {
+    if (serviciosSeleccionados.includes(servicio)) {
+      setServiciosSeleccionados(serviciosSeleccionados.filter(s => s !== servicio));
+    } else {
+      setServiciosSeleccionados([...serviciosSeleccionados, servicio]);
+    }
   };
 
   const seleccionarHabitacion = (numero) => {
@@ -166,27 +109,23 @@ function Estetica() {
       <div className="reservacion-mascotas">
         <p className="reservacion-sbttl">Selecciona tus mascotas:</p>
         <div className="mascotas-grid">
-          {mascota.length > 0 ? mascota.map((pet)=>(
-            <div className="mascota-item" key={pet.id_mascota}>
+          {mascotas.map((mascota) => (
+            <div key={mascota.id} className="mascota-item">
               <input 
                 type="checkbox" 
-                id={`mascota-${pet.id_mascota}`} 
+                id={`mascota-${mascota.id}`} 
                 className="mascota-checkbox"
-                checked={mascotasSeleccionadas.includes(pet.id_mascota)}
-                onChange={() => toggleMascota(pet.id_mascota)}
+                checked={mascotasSeleccionadas.includes(mascota.id)}
+                onChange={() => toggleMascota(mascota.id)}
               />
-              <label className="mascota-label" htmlFor={`mascota-${pet.id_mascota}`}>
+              <label className="mascota-label" htmlFor={`mascota-${mascota.id}`}>
                 <div className="mascota-info">
-                  <span className="mascota-nombre">{pet.nombre_mascota}</span>
-                  <span className="mascota-tipo">{pet.tipo}</span>
+                  <span className="mascota-nombre">{mascota.nombre}</span>
+                  <span className="mascota-tipo">{mascota.tipo}</span>
                 </div>
               </label>
             </div>
-          ))
-          :(
-            <p>No tienes mascotas agregadas...</p>
-          )}
-
+          ))}
         </div>
 
         {mascotasSeleccionadas.length > 0 && (
@@ -196,7 +135,7 @@ function Estetica() {
             </p>
             <p className="resumen-nombres-mascotas">
               {mascotasSeleccionadas
-                .map(id_mascota => mascota.find(m => m.id_mascota === id_mascota)?.nombre)
+                .map(id => mascotas.find(m => m.id === id)?.nombre)
                 .join(', ')}
             </p>
           </div>
@@ -275,53 +214,18 @@ function Estetica() {
               Elige la habitación donde se hospedará tu mascota
             </p>
             
-            {/* AQUIIII HABITACIONESSS */}
             <div className="habitaciones-grid">
-              {/* {habitacion.map((hab) => (
+              {habitaciones.map((hab) => (
                 <div
-                  key={hab.no_habit}
+                  key={hab.numero}
                   className={`habitacion-item ${
-                    habitacionSeleccionada === hab.no_habit ? 'habitacion-seleccionada' : ''
+                    habitacionSeleccionada === hab.numero ? 'habitacion-seleccionada' : ''
                   }`}
-                  onClick={() => seleccionarHabitacion(hab.no_habit)}
+                  onClick={() => seleccionarHabitacion(hab.numero)}
                 >
-                  if (hab.status ==='Disponible') {
-                    <span className="habitacion-numero">{hab.no_habit}</span>  
-                  }if (hab.status === 'Ocupada') {
-                    <span className="habitacion-numero"> !{hab.no_habit}</span>
-                  } else {
-                    <span className="habitacion-numero">{hab.no_habit}</span>
-                  }
-                  
+                  <span className="habitacion-numero">{hab.numero}</span>
                 </div>
-              ))} */}
-              {habitacion.map((hab) => {
-                const estatus = hab.estatus
-                const disponible = estatus === 'Disponible'
-                const seleccionado = habitacionSeleccionada ===hab.no_habit
-
-                return(
-                  <div
-                    key={hab.no_habit}
-                    className={[
-                      "habitacion-item",
-                      `habitacion-${estatus?.toLowerCase()}`, // habitacion-disponible / ocupada / mantenimiento
-                      seleccionado ? "habitacion-seleccionada" : "",
-                      !disponible ? "habitacion-bloqueada" : "",
-                    ].join(" ")}
-                    onClick={() => {
-                      if (disponible) seleccionarHabitacion(hab.no_habit);
-                    }}
-                    role="button"
-                    aria-disabled={!disponible}
-                    title={!disponible ? `No disponible (${estatus})` : "Disponible"}
-                  >
-                    <span className="habitacion-numero">{hab.no_habit}</span>
-
-                  </div>
-                )
-
-              })}
+              ))}
             </div>
 
             {habitacionSeleccionada && (
@@ -335,13 +239,13 @@ function Estetica() {
 
           <div className="reservacion-selec-servicios">
             <p className="reservacion-sbttl">Selecciona los servicios que requieres para tus mascotas</p>
-            {serviciosArr.map((servicio) => (
-              <div key={servicio.id} className="reservacion-servicio">
-                <p className="reservacion-nombre-servicio">{servicio.nombre}</p>
+            {servicios.map((servicio) => (
+              <div key={servicio} className="reservacion-servicio">
+                <p className="reservacion-nombre-servicio">{servicio}</p>
                 <input 
                   type="checkbox" 
                   className="reservacion-nombre"
-                  checked={serviciosSeleccionados.includes(servicio.id)}
+                  checked={serviciosSeleccionados.includes(servicio)}
                   onChange={() => toggleServicio(servicio)}
                 />
               </div>
@@ -362,4 +266,4 @@ function Estetica() {
   );
 }
 
-export default Estetica;
+export default Estetica_2;

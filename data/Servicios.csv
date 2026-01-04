@@ -1,6 +1,6 @@
-id_servicio,servicio,costo,desc
-1,Hospedaje,800,Servicio de hospedaje
-2,Veterinaria,300,Servicio de veterinaria
-3,Paseo,80,Servicio de paseo
-4,Estetica,200,Servicio de estetica
-5,Spa,500,Servicio de spa
+servicio,costo,desc
+Hospedaje,800,Servicio de hospedaje
+Veterinaria,300,Servicio de veterinaria
+Paseo,80,Servicio de paseo
+Estetica,200,Servicio de estetica
+Spa,500,Servicio de spa

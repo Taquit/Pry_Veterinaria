@@ -4,16 +4,12 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-/*
-:root {
-  --nav-h: 50px;
-}
-*/
+
 
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #950505;
   font-family: 'Poppins', sans-serif;
   color: #1f2937;
   font-family: Poppins  , sans-serif;
@@ -28,7 +24,7 @@ body {
   width: 100%;
   background-color: #ffe4cc;
   justify-content: space-between;
-  align-items:center;
+  align-items:stretch;
   color: white;
   z-index: 1000;
 }
@@ -38,7 +34,9 @@ body {
   align-items: center;
   height: 100%;
   /*background: #195dd2;*/
-  width: 50%;
+  width: 30%;
+  padding-top: 1vh;
+  padding-left: 1vw;
 }
 
 .texto{
@@ -54,7 +52,7 @@ body {
   align-items:center;
   /*background-color: rgba(0, 255, 238, 0.313);*/
   height: 100%;
-  width: 50%;
+  width: 60%;
   justify-content: center;
   gap: 5vw;
 }

@@ -1,0 +1,275 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background-color: rgb(162, 196, 198);*/
+}
+
+.perfil-ttl {
+    margin-top: 15vh;
+    /*background-color: rgb(134, 134, 218);*/
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-nombre{
+      font-size: 3vw;
+  font-weight: 700;
+  color: #114050;
+}
+
+.perfil-informacion{
+    display: flex;
+    flex-direction:column;
+    height: 40vh;
+    width: 100%;
+    /*background-color: bisque;*/
+    gap: 2vh;
+}
+
+.perfil-sbttl{
+    font-size: 2vw;
+    font-weight: 600;
+    /*background-color: aqua;*/
+}
+
+.perfil-contacto{
+    display: flex;
+    flex-direction: row;
+    /*background-color: aqua;*/
+    justify-content:flex-start;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    gap: 15vw;
+}
+
+.perfil-dato{
+ /*background-color: #e89c9c;*/
+ 
+ height: 100%;
+ display: flex;
+ align-items: center;
+ border-radius: 0.5vw;
+ padding: 0.2vh;
+ font-weight:600;
+ font-size: 1.2vw;
+}
+
+
+.perfil-animales-container{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #923d3d;*/
+    align-items:center;
+    min-height: 60vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    gap:2vh;
+}
+
+.perfiles-animales{
+    display: flex;
+    flex-direction: row;
+    /*background-color: bisque;*/
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    gap:5vw;
+}
+
+.perfil-datos-animal{
+    display: flex;
+    flex-direction: column;
+    background-color: #114050;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1vw;
+    gap: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 1vw;
+}
+
+.perfil-nombre-animal, .perfil-tipo-animal{
+    color: #ffff;
+    font-size: 1.5vw;
+}
+
+.perfil-eliminar{
+     background-color: #ffffff;
+  border: #ffffff;
+  background-color: #ffe4cc;
+  color: #fc560b;
+  font-weight: 600;
+  border-radius: 1vw;
+}
+
+.perfil-button{
+     background-color: #ffffff;
+  border: #ffffff;
+  background-color: #ffe4cc;
+  color: #fc560b;
+  font-size: 1.5vw;
+  font-weight: 600;
+  border-radius: 1vw;
+}
+
+.perfil-botones-modal {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 2vh;
+    flex-wrap: wrap;
+}
+
+.perfil-botones-modal .btn-primary {
+    background-color: #114050;
+    border-color: #114050;
+    font-weight: 600;
+    padding: 1vh 2vw;
+    border-radius: 0.5vw;
+}
+
+.perfil-botones-modal .btn-primary:hover {
+    background-color: #0a2a35;
+    border-color: #0a2a35;
+}   
+
+.perfil-historial {
+    width: 100%;
+    padding: 3vh 5vw;
+    margin-top: 5vh;
+}
+
+.tabla-reservaciones {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 2vh;
+}
+
+.tabla-historial {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-historial thead {
+    background-color: #114050;
+    color: white;
+}
+
+.tabla-historial th {
+    padding: 2vh 1vw;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+.tabla-historial tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.tabla-historial tbody tr:hover {
+    background-color: #ffe4cc;
+}
+
+.tabla-historial td {
+    padding: 1.5vh 1vw;
+    font-size: 1.1vw;
+    color: #114050;
+}
+
+.estatus {
+    padding: 0.5vh 1vw;
+    border-radius: 0.5vw;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.estatus.confirmada {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.estatus.pendiente {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.estatus.completada {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.estatus.cancelada {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.btn-cancelar {
+    background-color: #fc560b;
+    color: white;
+    border: none;
+    padding: 0.8vh 1.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-cancelar:hover:not(:disabled) {
+    background-color: #d4470a;
+    transform: scale(1.05);
+}
+
+.btn-cancelar:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.perfil-foto-mascota {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Evita que la imagen se estire */
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.perfil-datos-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    /* ... tus otros estilos */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

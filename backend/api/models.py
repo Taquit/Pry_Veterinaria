@@ -63,8 +63,9 @@ class Vacuna(models.Model):
 class Mascota_Vacuna(models.Model):
 
     id_aplicacion = models.BigAutoField(primary_key=True)
+    fecha_aplicacion = models.DateTimeField(auto_now_add=True)
     id_vac = models.ForeignKey(
-        'id_vacuna',
+        'Vacuna',
         on_delete=models.PROTECT,
         db_column='id_vacuna'
     )
@@ -73,7 +74,7 @@ class Mascota_Vacuna(models.Model):
         on_delete=models.PROTECT,
         db_column='id_mascota'
     )
-    fecha_aplicacion = models.DateTimeField(auto_now_add=True)
+    
 
 
 #Modelo Domicilio/CatalogoCP
@@ -81,7 +82,6 @@ class CatalogoCP(models.Model):
 
     id=models.BigAutoField(primary_key = True)
     codigoP = models.CharField(max_length=5)
-    id_asenta = models.IntegerField()
     d_asenta = models.CharField(max_length=200)
     d_tipo_asenta = models.CharField(max_length=50)
     d_mnpio = models.CharField(max_length=100)
@@ -89,6 +89,7 @@ class CatalogoCP(models.Model):
     id_estado = models.CharField(max_length=5)
     id_tipo_asenta = models.CharField(max_length=5)
     id_mnpio = models.IntegerField()
+    id_asenta = models.IntegerField()
 
     class Meta:
         constraints = [
@@ -127,16 +128,18 @@ class Dueño(models.Model):
     apellido_m = models.CharField(max_length=100, blank=True, null=True)
     telefono = models.CharField(max_length=15)
     email = models.EmailField(max_length=100, blank=True, null=True)
-    contraseña = models.Charfield(max_length=100)
+    contraseña = models.CharField(max_length=100)
     id_domicilio = models.ForeignKey(
             'Domicilio',
             on_delete=models.PROTECT,
-            db_column='id_domicilio'
+            db_column='id_domicilio',
+            null=True
     )
     id_contacto= models.ForeignKey(
             'Contacto_emergencia',
             on_delete=models.PROTECT,
             db_column='id_contacto',
+            null=True
     )
 
 
@@ -152,17 +155,28 @@ class Contacto_emergencia(models.Model):
 class Mascota(models.Model):
     id_mascota = models.BigAutoField(primary_key=True)
     nombre_mascota = models.CharField(max_length=100)
-    edad = models.IntegerField()
+    foto = models.ImageField(upload_to="mascotas/", null=True, blank=True)
+    fecha_nac = models.DateField(null=True,blank=True)
     peso = models.FloatField()
     esterilizado =  models.BooleanField()
-    chip = models.CharField(max_length=50, unique=True)
+    chip = models.CharField(max_length=50, unique=True, null=True)
     ruac = models.CharField(max_length=50, unique=True, null=True)
     sexo = models.CharField(max_length=1)
     color_prim = models.CharField(max_length=50)
     color_sec = models.CharField(max_length=50, blank=True, null=True)
     comportamiento = models.CharField(max_length=200, blank=True, null=True)
-    cartilla_vac = models.BooleanField()
+    cartilla_vac = models.BooleanField(default=False)
     notas = models.TextField(blank=True, null=True)
+    id_dueño = models.ForeignKey(
+            'Dueño',
+            on_delete=models.PROTECT,
+            db_column='id_dueño'
+    )
+    id_subtipo = models.ForeignKey(
+            'Subtipo',
+            on_delete=models.PROTECT,
+            db_column='id_subtipo'
+    )
 
 #Empleados
 class Puesto(models.Model):
@@ -176,7 +190,6 @@ class Empleado(models.Model):
     nombre = models.CharField(max_length=100)
     apellido_p = models.CharField(max_length=100)
     apellido_m = models.CharField(max_length=100, blank=True, null=True)
-    puesto = models.CharField(max_length=100)
     telefono = models.CharField(max_length=15)
     email = models.EmailField(max_length=100, blank=True, null=True)
     contrasena = models.CharField(max_length=100)
@@ -193,7 +206,7 @@ class Habitacion(models.Model):
     no_habit = models.BigAutoField(primary_key= True)
     estatus = models.CharField(max_length=50)
     costo = models.FloatField()
-    desc = models.TextField
+    desc = models.TextField()
 
 class  Servicio(models.Model):
 
@@ -203,7 +216,7 @@ class  Servicio(models.Model):
     desc = models.CharField(max_length=255)
 
 #Reservaciones
-class Reservacion_(models.Model):
+class Reservacion(models.Model):
     id_reservacion = models.BigAutoField(primary_key=True)
     checke_in = models.DateTimeField()
     checke_out = models.DateTimeField()
@@ -211,7 +224,8 @@ class Reservacion_(models.Model):
     id_dueño = models.ForeignKey(
             'Dueño', 
             on_delete=models.PROTECT,
-            db_column='id_dueño'
+            db_column='id_dueño',
+            null=True
     )
     id_mascota = models.ForeignKey(
             'Mascota',
@@ -219,14 +233,24 @@ class Reservacion_(models.Model):
             db_column='id_mascota'
     )
 
+    class Meta:
+        constraints = [
+            models.CheckConstraint(condition=models.Q(checke_out__gt=models.F('checke_in')), name='checke_out_gt_checke_in')
+        ]
+
 class Reservacion_Servicio(models.Model):
 
     id_res_serv = models.BigAutoField(primary_key=True)
     precio_total = models.FloatField()
     estatus = models.CharField(max_length=50)
     notas = models.TextField(blank=True, null=True)
+    id_servicio = models.ForeignKey(
+            'Servicio',
+            on_delete=models.PROTECT,
+            db_column='id_servicio'
+    )
     id_reservacion = models.ForeignKey(
-            'Reservacion_',
+            'Reservacion',
             on_delete=models.PROTECT,
             db_column='id_reservacion'
     )
@@ -240,3 +264,4 @@ class Reservacion_Servicio(models.Model):
             on_delete=models.PROTECT,
             db_column='no_habit'
     )
+

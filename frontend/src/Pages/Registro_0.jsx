@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import ReMascotCard from "./Cards/ReMascotCard";
 import ReOwnerCard from "./Cards/ReOwnerCard";
-import addIcon from "../assets/addDiamond.svg"
-import './Css/Registro.css'
+import addIcon from "../Assets/addDiamond.svg"
+import './Css/Registro.css';
 
-function Registro(){
+function Registro_1(){
+
+    const[data,setData]=useState([])
+
     const [owner,setOwner]=useState({
         name:"",lastName:"",bday:"",sex:"",email:"",password:"",phone:"",street:"",
         block:"",postCode:"",RFC:"", RS:"",emName:"",emLastName:"",emBday:"",emEmail:"",emPhone:""
@@ -114,4 +117,4 @@ function Registro(){
     )
 }
 
-export default Registro
+export default Registro_1

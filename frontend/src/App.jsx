@@ -11,10 +11,13 @@ import Hotel from './Pages/Hotel'
 import Estetica from './Pages/Estetica'
 import Tienda from './Pages/Tienda'
 import Reservacion from './Pages/Reservacion'
-import Registro from './Pages/Registro'
+import Registro_2 from './Pages/Registro_v2'
+import Estetica_2 from './Pages/Estetica'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Prueba from './Pages/Prueba'
+import Perfil from './Pages/Perfil'
 
 
 function App() {
@@ -29,7 +32,9 @@ function App() {
         <Route path ='/estetica' element = {<Estetica></Estetica>}/>
         <Route path ='/tienda' element= {<Tienda></Tienda>}/>
         <Route path='/reservacion'element={<Reservacion></Reservacion>}/>
-        <Route path='/registro'element={<Registro/>}/>
+        <Route path='/registro'element={<Registro_2/>}/>
+        <Route path='/perfil' element={<Perfil/>}/>
+        <Route path='/prueba' element={<Prueba></Prueba>}/>
       </Routes>
       <Footer></Footer>
     </>

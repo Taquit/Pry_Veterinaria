@@ -16,20 +16,21 @@ function Hotel(){
                 <p className="hotel-textdescription">Tellus Animalium cuenta con el siguiente catálogo de habitaciones en las que su mascota puede hospedarse</p>
                 <div className="hotel-containerrooms">
                     <div className="hotel-kndrooms">
-                        <img src="src/assets/cuartosencillo.jpg" className="imgroom" alt="" />
                         <p className="hotel-roomsubtitle">Sencilla</p>
                         <p className="hotel-textdesc">Espacio básico, generalmente individual, con cama cómoda, agua fresca y ventilación adecuada. Es funcional y seguro, pensado solo para cubrir las necesidades esenciales de descanso y alimentación.</p>
+                        <img src="src/assets/comida-perro.png" className="imgroom" alt="" />
+                        
                     </div>
                      <div className="hotel-kndrooms">
-                        <img src="src/assets/cuartonormal.jpg" className="imgroom" alt="" />
                         <p className="hotel-roomsubtitle">Todo Incluido</p>
                         <p className="hotel-textdesc">Área un poco más amplia, con cama acolchonada, juguetes, bebedero automático y, en algunos casos, acceso a una zona común para juegos o paseos controlados. Ofrece mayor confort que la sencilla.</p>
-                    </div>
+                        <img src="src/assets/habitacionmedia.png" className="imgroom" alt="" />
+                         </div>
                      <div className="hotel-kndrooms">
-                        <img src="src/assets/cuartodoincluido.jpg" className="imgroom" alt="" />
                         <p className="hotel-roomsubtitle">VIP</p>
                         <p className="hotel-textdesc">Espacio de lujo, amplio y personalizado. Incluye cama tipo sofá, juguetes variados, aire acondicionado o calefacción, cámaras para que el dueño pueda ver a su mascota, servicio de entretenimiento</p>
-                    </div>
+                        <img src="src/assets/habitacionvip.png" className="imgroom" alt="" />
+                        </div>
                 </div>
             </div>
             <div className="hotel-selection">

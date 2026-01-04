@@ -1,6 +1,6 @@
-id_puesto,puesto,desc
-1,Empleado,Empleado general
-2,Gerente hotel,Gerente del hotel
-3,Gerente general,Gerente de la general
-4,Veterinario,Doctor veterinario
-5,Paseador de perros,Encargado de pasear perros
+puesto,desc
+Empleado,Empleado general
+Gerente hotel,Gerente del hotel
+Gerente general,Gerente de la general
+Veterinario,Doctor veterinario
+Paseador de perros,Encargado de pasear perros

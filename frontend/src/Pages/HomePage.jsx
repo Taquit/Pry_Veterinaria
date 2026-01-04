@@ -46,11 +46,8 @@ function HomePage(){
                                  <p className="homepage-subtitle" id="subtitleservices">Veterinaria</p>
                             </div>
                             <div className="homepage-containerservices">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7vw" height="auto" fill="currentColor" class="bi bi-camera2 icon" viewBox="0 0 16 16">
-                                <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
-                                <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
-                                </svg>
-                                <p className="homepage-subtitle" id="subtitleserv">Registro Fotográfico</p>
+                                <img src="src/assets/esteticaazul.png" alt="" class="homepage-imgservices"></img>
+                                <p className="homepage-subtitle">Estetica</p>
                             </div>
                             <div className="homepage-containerservices">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="7vw" height="auto" fill="currentColor" class="bi bi-chat-text-fill icon" viewBox="0 0 16 16">
@@ -60,28 +57,32 @@ function HomePage(){
                             </div>
                         </div>
                     </div>
-                    <div className="homepage-description">
+                
+                <Carousel className="carousel-desc">
+                    <Carousel.Item>
                         <div className="homepage-descriptiontext">
-                            <p className="homepage-subtitle">Misión</p>
-                            <p className="homepage-textdesc">Brindar un servicio de hotelería de alta calidad para mascotas, asegurando un ambiente libre de estrés y lleno de amor, diversión y seguridad. Nos dedicamos a cuidar a cada animal como si fuera nuestro, ofreciendo una experiencia inigualable que garantice su felicidad y la tranquilidad de sus familias</p>
-                        </div>
-                        <div className="homepage-imagedescription">
-
-                        </div>
-                    </div>
-                    <div className="homepage-description">
+                            <div className="desctext">
+                                <p className="homepage-subtitle">Misión</p>
+                                <p className="homepage-textdesc">Brindar un servicio de hotelería de alta calidad para mascotas, asegurando un ambiente libre de estrés y lleno de amor, diversión y seguridad. Nos dedicamos a cuidar a cada animal como si fuera nuestro, ofreciendo una experiencia inigualable que garantice su felicidad y la tranquilidad de sus familias</p>
+                            </div>
+                            <img src="src/assets/perritofeli.webp" class="img-carousel" alt="..."></img>
+                        </div> 
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <div className="homepage-descriptiontext">
-                            <p className="homepage-subtitle">Visión</p>
-                            <p className="homepage-textdesc">Ser el hotel para mascotas líder en el país, reconocido por nuestra excelencia en el cuidado, nuestras instalaciones de vanguardia y nuestro compromiso con el bienestar animal. Aspiramos ser el lugar de confianza al que las familias acudan para el cuidado de sus mascotas.</p>
+                            <div className="desctext">
+                                <p className="homepage-subtitle">Misión</p>
+                                <p className="homepage-textdesc">Brindar un servicio de hotelería de alta calidad para mascotas, asegurando un ambiente libre de estrés y lleno de amor, diversión y seguridad. Nos dedicamos a cuidar a cada animal como si fuera nuestro, ofreciendo una experiencia inigualable que garantice su felicidad y la tranquilidad de sus familias</p>
+                            </div>
+                                 <img src="src/assets/cuartosencillo.jpg" class="img-carousel" alt="..."></img>
                         </div>
-                        <div className="homepage-imagedescription">
-
-                        </div>
-                    </div>
+                    </Carousel.Item>
+                </Carousel>
+                    
                 </div>
                 <div className="homepage-location">
+                    <p className="homepage-subtitle">¿Dónde nos encontramos?</p>
                     <div className="homepage-contlac">
-                        <p className="homepage-subtitle">¿Dónde nos encontramos?</p>
                         <iframe
                             title="Ubicación Resort Manager"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.56721822767!2d-99.13320868509422!3d19.43260798688724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92d5d9f1bfb%3A0x1234567890abcdef!2sCiudad%20de%20México!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx"
