@@ -94,19 +94,19 @@ function Estetica() {
     return dias;
   };
 
-  // const crearReservacion = async () =>{
-  //   setError(null);
+  const crearReservacion = async () =>{
+    setError(null);
     
-  //   const id_dueño=Number(localStorage.getItem("id_dueño")||"0")
-  //   if(!id_dueño) return setError("No has iniciado sesion")
-  //   if(mascotasSeleccionadas.length===0) return setError("Selecciona alguna mascota")
-  //   if(diasSeleccionados.length===0) return setError("Selecciona al menos un dia")
-  //   if(!habitacionSeleccionada) return setError("Selecciona una habitacion")
-  //   if(serviciosSeleccionados.length===0) return setError("Selecciona al menos un servicio")
+    const id_dueño=Number(localStorage.getItem("id_dueño")||"0")
+    if(!id_dueño) return setError("No has iniciado sesion")
+    if(mascotasSeleccionadas.length===0) return setError("Selecciona alguna mascota")
+    if(diasSeleccionados.length===0) return setError("Selecciona al menos un dia")
+    if(!habitacionSeleccionada) return setError("Selecciona una habitacion")
+    if(serviciosSeleccionados.length===0) return setError("Selecciona al menos un servicio")
 
-  //   const fechasOrdenadas = [...diasSeleccionados].sort()
-  //   const fecha_inicio=fechasOrdenadas[0]
-  //   const fecha_fin=fechasOrdenadas[fechasOrdenadas.length-1]
+    const fechasOrdenadas = [...diasSeleccionados].sort()
+    const fecha_inicio=fechasOrdenadas[0]
+    const fecha_fin=fechasOrdenadas[fechasOrdenadas.length-1]
 
   //   const payload={
   //     id_dueño:id_dueño,
@@ -115,10 +115,10 @@ function Estetica() {
   //   }
   // }
 
-  // const toDateObj = (yyyy_mm_dd)=>{
-  //   const [y,m,d]=yyyy_mm_dd.split("-").map(Number);
-  //   return new Date(y,m-1,d);
-  // }
+  const toDateObj = (yyyy_mm_dd)=>{
+    const [y,m,d]=yyyy_mm_dd.split("-").map(Number);
+    return new Date(y,m-1,d);
+  }
 
   const toggleDia = (fechaCompleta) => {
     if (diasSeleccionados.includes(fechaCompleta)) {
@@ -360,6 +360,6 @@ function Estetica() {
       <button className="reservacion-button">Aceptar</button>
     </div>
   );
-}
+}}
 
 export default Estetica;
