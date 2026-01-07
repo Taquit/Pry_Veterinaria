@@ -18,6 +18,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Prueba from './Pages/Prueba'
 import Perfil from './Pages/Perfil'
+import ConsultaHabitaciones from './Pages/Cons1'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/registro'element={<Registro_2/>}/>
         <Route path='/perfil' element={<Perfil/>}/>
         <Route path='/prueba' element={<Prueba></Prueba>}/>
+        <Route path='/c1' element ={<ConsultaHabitaciones/>}/>
       </Routes>
       <Footer></Footer>
     </>

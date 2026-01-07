@@ -204,13 +204,6 @@ class BitacoraPaseoViewSet(viewsets.ModelViewSet):
     serializer_class = BitacoraPaseoSerializer
 
 
-# views.py
-from django.db import connection
-from rest_framework.decorators import api_view, permission_classes
-from rest_framework.permissions import AllowAny
-from rest_framework.response import Response
-from rest_framework import status
-
 @api_view(["GET"])
 @permission_classes([AllowAny])
 def habitaciones_ocupadas_actualmente(request):
@@ -226,17 +219,17 @@ def habitaciones_ocupadas_actualmente(request):
                     mb.nombre AS nombre_mascota,
                     s.nom_subtipo AS especie,
                     mf.tamano,
-                    d.nombre || ' ' || d.apellido_pat AS nombre_dueño
+                    d.nombre || ' ' || "d.apellido_Pat" || ' ' || "d.apellido_Mat AS" nombre_dueño
                 FROM api_v2_habitacion h
                 JOIN api_v2_estatushabit eh ON h.id_status_id = eh.id_status
                 JOIN api_v2_reservacionhotel rh ON h.no_habit = rh.no_habit_id
                 JOIN api_v2_reservaciones r ON rh.id_reservacion_id = r.id_reservacion
                 JOIN api_v2_mascotabase mb ON r.id_mascota_id = mb.id_mascota
                 JOIN api_v2_subtipo s ON mb.id_subtipo_id = s.id_subtipo
-                JOIN api_v2_dueno d ON mb.id_duno_id = d.id_dueno
+                JOIN api_v2_dueno d ON mb.id_dueno_id = d.id_dueno
                 LEFT JOIN api_v2_mascotafisica mf ON mb.id_mascota = mf.id_mascota_id
                 WHERE rh.fecha_checkin IS NOT NULL 
-                  AND rh.fecha_checkout IS NULL;
+                AND rh.fecha_checkout IS NULL;
             """)
             columns = [col[0] for col in cursor.description]
             rows = cursor.fetchall()

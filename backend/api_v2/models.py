@@ -1,5 +1,7 @@
 from django.db import models
 
+sexo
+
 # --- Catálogos de Salud Animal ---
 class Tipo(models.Model):
     id_Tipo = models.BigAutoField(primary_key=True)
@@ -268,7 +270,7 @@ class MascotaBase(models.Model):
     f_nac = models.DateField(null=True, blank=True)
     esterilizado = models.BooleanField()
     sexo = models.ForeignKey(CatalogoSexo, on_delete=models.CASCADE)
-    id_Duno = models.ForeignKey(Dueno, on_delete=models.CASCADE)
+    id_dueno = models.ForeignKey(Dueno, on_delete=models.CASCADE)
     id_subtipo = models.ForeignKey(Subtipo, on_delete=models.CASCADE)
     foto_url = models.CharField(max_length=500, blank=True, null=True)
 
