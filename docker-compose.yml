@@ -20,7 +20,7 @@ services:
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - ./backend:/app
-      - ./backend/media
+      - ./backend/media:/app/media
       - ./data:/seed:ro
     ports:
       - "8000:8000"

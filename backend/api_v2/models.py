@@ -309,7 +309,7 @@ class MascotaEnfermedad(models.Model):
             models.CheckConstraint(
                 check=models.Q(fecha_recuperacion__isnull=True) | 
                        models.Q(fecha_recuperacion__gte=models.F('fecha_diagnostico')),
-                name='recuperacion_check'
+                name='recuperacion_check2'
             )
         ]
 
@@ -414,7 +414,7 @@ class ReservacionDuracion(models.Model):
         constraints = [
             models.CheckConstraint(
                 check=models.Q(duracion_minutos__gt=0),
-                name='duracion_check'
+                name='duracion_check2'
             )
         ]
 
@@ -432,11 +432,11 @@ class ReservacionHotel(models.Model):
             models.CheckConstraint(
                 check=models.Q(fecha_checkout__isnull=True) | 
                        models.Q(fecha_checkout__gte=models.F('fecha_checkin')),
-                name='checkout_check'
+                name='checkout_check2'
             ),
             models.CheckConstraint(
                 check=models.Q(fecha_checkout_prevista__gt=models.F('fecha_checkin_prevista')),
-                name='tiempo_check'
+                name='tiempo_check2'
             )
         ]
 

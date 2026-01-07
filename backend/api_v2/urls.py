@@ -74,34 +74,19 @@ router.register(r'reservaciones', views.ReservacionesViewSet, basename='reservac
 router.register(r'reservaciones-duracion', views.ReservacionDuracionViewSet, basename='reservacion-duracion')
 router.register(r'reservaciones-hotel', views.ReservacionHotelViewSet, basename='reservacion-hotel')
 router.register(r'bitacoras-paseo', views.BitacoraPaseoViewSet, basename='bitacora-paseo')
+ 
+
 
 urlpatterns = [
     path('', include(router.urls)),
-    
-    path('habitaciones-con-ocupantes/', habitaciones_con_ocupantes, name='habitaciones_con_ocupantes'),
-
-    # Endpoint para paseos realizados por un cuidador
-    path('paseos-por-cuidador/', paseos_por_cuidador, name='paseos_por_cuidador'),
-
-    # Endpoint para obtener mascotas con vacunas vigentes
-    path('mascotas-vacunas-vigentes/', mascotas_vacunas_vigentes, name='mascotas_vacunas_vigentes'),
-
-    # Endpoint para obtener el reporte de servicios por rubro
-    path('reporte-servicios-por-rubro/', reporte_servicios_por_rubro, name='reporte_servicios_por_rubro'),
-
-    # Endpoint para obtener los paseos realizados para una mascota específica
-    path('paseos-por-mascota/', paseos_por_mascota, name='paseos_por_mascota'),
-
-    # Endpoint para obtener el reporte de servicios mensuales
-    path('reporte-servicios-mensuales/', reporte_servicios_mensuales, name='reporte_servicios_mensuales'),
-
-    # Endpoint para obtener mascotas con todos los servicios (SPA, Estética, Veterinario)
-    path('mascotas-con-todos-servicios/', mascotas_con_todos_servicios, name='mascotas_con_todos_servicios'),
-
-    # Endpoint para obtener servicios realizados para una mascota
-    path('servicios-por-mascota/', servicios_por_mascota, name='servicios_por_mascota'),
-
-    # Endpoint para obtener mascotas con check-in pendiente
-    path('mascotas-a-checkin/', mascotas_a_checkin, name='mascotas_a_checkin'),
-
+    path('reportes/habitaciones-ocupadas/', views.habitaciones_ocupadas_actualmente),
+    path('reportes/mascotas-salen-hoy/', views.mascotas_salen_hoy),
+    path('reportes/paseos-por-cuidador/', views.paseos_por_cuidador),
+    path('reportes/vacunas-vigentes/', views.mascotas_vacunas_vigentes),
+    path('reportes/gastos-por-mascota/', views.reporte_servicios_por_rubro),
+    path('reportes/mascotas-sin-checkin/', views.mascotas_a_checkin),
+    path('reportes/paseos-por-mascota/', views.paseos_por_mascota),
+    path('reportes/servicios-por-mascota/', views.servicios_por_mascota),
+    path('reportes/servicios-mensuales/', views.reporte_servicios_mensuales),
+    path('reportes/mascotas-todas-areas/', views.mascotas_con_todos_servicios),
 ]
