@@ -1,4 +1,4 @@
-id_Tipo_id,nom_subtipo,esp_vidamin,esp_vidamax,desc_subtipo
+id_tipo,nom_subtipo,esp_vidamin,esp_vidamax,desc_subtipo
 1,Bichon Bolones,12,14,"Perro de compañía, dócil, pelaje rizado blanco; requiere cepillado frecuente."
 1,Bichon Maltes,12,15,"Muy afectuoso, pelaje largo blanco; ideal como perro de compañía."
 1,Chihuahua Pelo Corto,14,16,Vigilante y vivaz; necesita socialización temprana y abrigo en frío.

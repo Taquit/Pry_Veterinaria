@@ -25,12 +25,12 @@ const LoginForm = () => {
     }
 
     try{
-      const res= await axios.post("http://localhost:8000/api/login/",{
-        email:formData.email.trim(),
-        contraseña:formData.contraseña,
+      const res= await axios.post("http://localhost:8000/v2/login/",{
+        correo:formData.email.trim(),
+        contra:formData.contraseña,
       });
-      localStorage.setItem("logged_in",String(res.data.id_dueño));
-      localStorage.setItem("id_dueño",String(res.data.id_dueño));
+      localStorage.setItem("logged_in",String(res.data.id_dueno));
+      localStorage.setItem("id_dueño",String(res.data.id_dueno));
       localStorage.setItem("nombre_dueño",res.data.nombre || "");
       
       console.log("Login OK:", res.data);

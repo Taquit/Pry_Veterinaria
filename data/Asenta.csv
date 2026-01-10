@@ -1,0 +1,18 @@
+d_tipo_asenta          ,id_tipo_asenta
+'Colonia'              ,1
+'Pueblo'               ,2
+'Barrio'               ,3
+'Equipamiento'         ,4
+'Campamento'           ,5
+'Aeropuerto'           ,6
+'Conjunto habitacional',7
+'Fraccionamiento',8        
+'Unidad habitacional'  ,9             
+'Ejido'                ,10
+'Zona Industrial'      ,11
+U.H. Rinconada del Sur',12
+'Zona federal'         ,13
+'Condominio'           ,14
+'Aeropuerto'           ,15
+'Ranchería'            ,16
+

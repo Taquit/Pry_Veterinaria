@@ -79,6 +79,12 @@ router.register(r'bitacoras-paseo', views.BitacoraPaseoViewSet, basename='bitaco
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('login/', views.user_login),
+    path('get-user/', views.get_info_dueno),
+    path('get-full-address/', views.get_full_adress),
+    path('get-mascota-by-dueno/', views.get_mas_by_dueno),
+    path('get-em-contact', views.get_contacto_em),
+    path('get-mascotas-by-dueno/', views.get_mas_by_dueno),
     path('reportes/habitaciones-ocupadas/', views.habitaciones_ocupadas_actualmente),
     path('reportes/mascotas-salen-hoy/', views.mascotas_salen_hoy),
     path('reportes/paseos-por-cuidador/', views.paseos_por_cuidador),

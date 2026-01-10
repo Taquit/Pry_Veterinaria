@@ -1,0 +1,2458 @@
+codigop,id_asenta,id_tipo_asenta,d_asenta
+1000,1,1,San Ángel
+1010,5,1,Los Alpes
+1020,6,1,Guadalupe Inn
+1030,9,2,Axotla
+1030,10,1,Florida
+1040,12,1,Campestre
+1049,14,2,Tlacopac
+1050,16,1,Ex-Hacienda de Guadalupe Chimalistac
+1060,17,1,Altavista
+1060,18,1,San Ángel Inn
+1070,19,1,Chimalistac
+1080,22,1,Progreso Tizapan
+1089,24,1,Ermita Tizapan
+1090,25,3,La Otra Banda
+1090,26,3,Loreto
+1090,28,2,Tizapan
+1100,31,1,Pólvora
+1109,33,1,La Conchita
+1110,34,1,Belém de las Flores
+1110,36,1,El Capulín
+1110,37,1,Ampliación El Capulín
+1110,39,1,Liberales de 1857
+1120,42,1,Acueducto
+1120,44,1,Cove
+1120,46,1,Hidalgo
+1120,47,1,Las Américas
+1125,43,1,Ampliación Acueducto
+1130,52,1,Paraíso
+1130,53,1,Molino de Santo Domingo
+1130,56,1,Real del Monte
+1139,58,1,Reacomodo Pino Suárez
+1140,59,1,Bellavista
+1140,60,1,José Maria Pino Suárez
+1150,63,1,Cristo Rey
+1150,64,1,Tolteca
+1160,66,1,Bosque
+1160,67,1,Isidro Fabela
+1160,68,1,Maria G. de García Ruiz
+1160,69,1,1a Victoria
+1170,74,1,Abraham M. González
+1180,76,1,Carola
+1180,77,1,8 de Agosto
+1180,78,1,San Pedro de los Pinos
+1200,79,1,Arturo Martínez
+1210,82,2,Santa Fe
+1219,84,1,Lomas de Santa Fe
+1220,85,1,Bonanza
+1220,86,1,Cuevitas
+1220,87,1,El Cuernito
+1220,89,1,Mártires de Tacubaya
+1220,90,1,Zenón Delgado
+1220,2681,1,La Estrella
+1230,92,1,Campo de Tiro los Gamitos
+1230,97,1,Los Gamitos
+1230,98,1,Tlapechico
+1230,132,1,El Piru Santa Fe
+1230,224,1,El Piru 2a Ampliación
+1239,102,1,La Huerta
+1240,103,1,Pueblo Nuevo
+1250,104,1,El Árbol
+1250,105,1,Ladera
+1250,106,1,Lomas de Nuevo México
+1250,107,1,Margarita Maza de Juárez
+1250,108,1,Tecolalco
+1259,109,1,Ampliación La Cebada
+1259,2845,1,La Mexicana 2a Ampliación
+1260,110,1,Calzada Jalalpa
+1260,112,1,La Mexicana
+1260,113,1,Ampliación La Mexicana
+1260,114,1,La Palmita
+1260,115,1,Liberación Proletaria
+1269,117,1,1a Sección Cañada
+1269,118,1,2a Sección Cañada
+1270,120,1,El Tejocote
+1270,121,1,La Presa
+1270,123,1,Golondrinas
+1270,124,1,Golondrinas 1a Sección
+1270,125,1,Golondrinas 2a Sección
+1270,127,1,Lomas de Capula
+1275,131,1,Villa Solidaridad
+1276,93,1,El Pirul
+1278,133,1,Desarrollo Urbano
+1279,136,1,Lomas de Becerra
+1280,138,1,Arvide
+1280,139,1,El Pocito
+1280,140,1,Francisco Villa
+1280,141,1,La Joya
+1285,144,1,El Rodeo
+1289,146,1,Reacomodo El Cuernito
+1290,147,1,Piloto Adolfo López Mateos
+1290,148,1,Presidentes
+1296,152,1,Jalalpa Tepito 2a Ampliación
+1296,153,1,Ampliación Jalalpa
+1296,154,1,Jalalpa Tepito
+1298,156,1,Ampliación Piloto Adolfo López Mateos
+1299,160,1,1a Ampliación Presidentes
+1299,161,1,2a Ampliación Presidentes
+1310,163,1,San Gabriel
+1320,164,1,Carlos A. Madrazo
+1330,168,1,Paseo de las Lomas
+1340,170,1,Bejero del Pueblo Santa Fe
+1376,171,1,Santa Fe
+1376,2682,1,Santa Fe Peña Blanca
+1376,2683,1,Santa Fe La Loma
+1376,2864,1,Santa Fe Centro Ciudad
+1377,172,1,Jalalpa El Grande
+1389,176,1,Santa Fe Tlayapaca
+1400,181,1,Olivar del Conde 1a Sección
+1400,184,1,Preconcreto
+1407,187,1,Galeana
+1408,188,1,Olivar del Conde 2a Sección
+1410,193,1,Barrio Norte
+1410,194,1,Palmas
+1419,195,1,Minas Cristo Rey
+1420,196,1,Sacramento
+1420,197,3,Santa María Nonoalco
+1430,198,1,Colina del Sur
+1450,202,1,Hogar y Redención
+1460,204,1,Alfonso XIII
+1470,206,3,Alfalfar
+1470,207,1,Molino de Rosas
+1480,209,1,Lomas de Plateros
+1490,211,1,La Cascada
+1500,213,2,Santa Lucía
+1500,2704,1,Miguel Gaona Armenta
+1509,221,2,Santa Lucía Chantepec
+1510,222,1,Garcimarrero
+1510,223,1,La Araña
+1510,2636,1,Los Cedros
+1520,94,1,Ampliación Los Pirules
+1520,225,1,Estado de Hidalgo
+1520,226,1,Ampliación Estado de Hidalgo
+1520,227,1,Piru Santa Lucía
+1520,2841,1,El Politoco
+1530,229,1,Corpus Christy
+1538,232,1,Tepopotla
+1539,233,1,Acuilotla
+1539,2643,1,Cooperativa Unión Olivos
+1540,238,1,Balcones de Cehuayo
+1540,239,1,Cehuaya
+1540,240,1,Llano Redondo
+1540,241,1,Punta de Cehuaya
+1548,2638,1,Villa Progresista
+1549,243,1,Dos Ríos del Pueblo Santa Lucía
+1550,245,1,Tepeaca
+1550,246,1,Ampliación Tepeaca
+1550,2849,1,Rinconada Las Cuevitas
+1560,248,1,Ave Real
+1560,249,1,Canutillo
+1560,250,1,Canutillo 3a Sección
+1560,251,1,Canutillo 2a Sección
+1566,2747,1,Hueytlale
+1569,255,1,Reacomodo Valentín Gómez Farías
+1588,259,1,Tarango
+1590,261,1,El Rincón
+1600,263,1,Merced Gómez
+1610,265,1,Colinas de Tarango
+1610,2639,1,Profesor J. Arturo López Martínez
+1618,267,1,Arcos Centenario
+1618,2745,1,Ex-Hacienda de Tarango
+1619,268,1,La Martinica
+1619,269,1,Rinconada de Tarango
+1620,270,1,Lomas de Tarango
+1630,271,1,Lomas de Puerta Grande
+1630,273,1,Puerta Grande
+1630,2640,1,Los Juristas
+1640,275,1,Herón Proal
+1645,276,1,Ponciano Arriaga
+1650,277,1,La Milagrosa
+1650,278,1,Palmas Axotitla
+1650,279,1,Tlacuitlapa
+1650,280,1,Ampliación Tlacuitlapa
+1650,281,1,2o Reacomodo Tlacuitlapa
+1650,2844,1,El Ruedo
+1650,2848,1,Santa Lucía Chantepec
+1700,282,1,La Joyita del Pueblo Tetelpan
+1700,283,1,Ocotillos del Pueblo Tetelpan
+1700,284,1,San Agustín del Pueblo Tetelpan
+1700,285,1,2a Del Moral del Pueblo Tetelpan
+1700,286,1,Tecalcapa del Pueblo Tetelpan
+1700,287,2,Tetelpan
+1708,291,1,El Encino del Pueblo Tetelpan
+1708,292,1,El Mirador del Pueblo Tetelpan
+1710,294,1,Las Águilas
+1710,295,1,Ampliación Alpes
+1720,297,1,Lomas de Guadalupe
+1729,298,1,Alcantarilla
+1730,299,1,Lomas de las Águilas
+1730,300,1,Puente Colorado
+1740,303,1,La Peñita del Pueblo Tetelpan
+1740,304,1,San Clemente Norte
+1740,2842,1,San Clemente Sur
+1750,305,1,Las Águilas 1a Sección
+1750,306,1,Las Águilas 2o Parque
+1750,307,1,Las Águilas 3er. Parque
+1759,308,1,Ampliación Las Águilas
+1760,309,1,Atlamaya
+1760,310,1,Flor de María
+1760,311,1,La Herradura del Pueblo Tetelpan
+1770,315,1,La Angostura
+1770,316,1,San José del Olivar
+1780,318,1,Olivar de los Padres
+1780,319,1,Tizampampano del Pueblo Tetelpan
+1789,323,1,Miguel Hidalgo
+1790,324,1,Lomas de los Ángeles del Pueblo Tetelpan
+1790,325,1,Lomas de San Ángel Inn
+1800,327,2,San Bartolo Ameyalco
+1807,328,1,Rancho San Francisco Pueblo San Bartolo Ameyalco
+1810,330,1,Villa Verdún
+1820,332,1,Lomas Axomiatla
+1820,2843,1,Ejido San Mateo
+1830,333,2,Santa Rosa Xochiac
+1840,334,1,Torres de Potrero
+1849,337,1,Rincón de la Bolsa
+1849,2847,1,Rancho del Carmen del Pueblo San Bartolo Ameyalco
+1857,341,1,Lomas de Chamontoya
+1859,343,1,Tlacoyaque
+1860,344,1,Lomas de La Era
+1863,3,1,Lomas del Capulín
+1870,345,1,Lomas de los Cedros
+1900,347,1,Jardines del Pedregal
+1904,2846,1,San Jerónimo Aculco
+2000,353,1,Centro de Azcapotzalco
+2010,356,3,Los Reyes
+2010,357,1,San Rafael
+2010,358,3,Nuevo Barrio San Rafael
+2020,360,3,San Marcos
+2020,361,1,Santo Tomás
+2040,362,1,Del Maestro
+2040,363,1,San Sebastián
+2050,364,1,Libertad
+2050,365,2,Santa María Malinalco
+2060,368,1,Sindicato Mexicano de Electricistas
+2060,369,1,Un Hogar Para Cada Trabajador
+2070,371,1,Del Recreo
+2070,372,3,Nextengo
+2080,374,1,Clavería
+2080,376,1,Sector Naval
+2090,377,1,San Álvaro
+2099,378,1,Ángel Zimbrón
+2100,379,1,El Rosario
+2120,385,2,San Martín Xochinahuac
+2128,389,1,Nueva El Rosario
+2129,390,1,Nueva España
+2130,391,1,Tierra Nueva
+2140,392,1,Santa Inés
+2150,393,1,Pasteros
+2160,394,2,Santo Domingo
+2200,396,1,Reynosa Tamaulipas
+2230,397,2,Santa Bárbara
+2240,398,3,San Andrés
+2240,399,2,San Andrés
+2250,400,2,Santa Catarina
+2300,402,1,Industrial Vallejo
+2310,404,1,Ferrería
+2320,405,2,San Andrés de las Salinas
+2330,406,3,Huautla de las Salinas
+2340,407,1,Santa Cruz de las Salinas
+2360,409,1,Las Salinas
+2400,410,2,San Juan Tlihuaca
+2410,412,1,Prados del Rosario
+2420,415,1,Ex-Hacienda El Rosario
+2440,418,1,Providencia
+2459,421,1,Tezozomoc
+2460,422,1,La Preciosa
+2470,423,1,Ampliación Petrolera
+2480,425,1,Petrolera
+2490,427,3,San Mateo
+2500,428,1,Unidad Cuitláhuac
+2519,430,1,El Jagüey
+2520,431,4,Estación Pantaco
+2530,439,1,Jardín Azpeitia
+2600,441,1,Pro-Hogar
+2630,443,3,Coltongo
+2630,2798,1,Coltongo
+2640,444,1,Monte Alto
+2650,445,1,Trabajadores de Hierro
+2660,446,1,Euzkadi
+2670,447,1,Cosmopolita
+2680,448,1,Potrero del Llano
+2700,449,2,San Miguel Amantla
+2710,451,2,San Pedro Xalpa
+2719,454,1,Ampliación San Pedro Xalpa
+2720,456,1,San Antonio
+2720,457,2,San Bartolo Cahualtongo
+2730,459,2,San Francisco Tetecala
+2750,461,2,Santiago Ahuizotla
+2760,462,1,Industrial San Antonio
+2760,463,3,Santa Lucía
+2770,464,2,Santa Cruz Acayucan
+2780,465,1,Plenitud
+2790,466,3,Santa Apolonia
+2800,467,1,Nueva Santa María
+2810,469,1,Ignacio Allende
+2810,470,1,Victoria de las Democracias
+2830,473,3,San Bernabé
+2840,474,1,Obrero Popular
+2860,476,1,Tlatilco
+2870,477,1,San Salvador Xochimanca
+2900,478,1,Aguilera
+2910,479,1,Aldana
+2920,480,1,Ampliación Cosmopolita
+2930,481,1,Liberación
+2940,482,1,Porvenir
+2950,483,1,Del Gas
+2960,484,2,San Francisco Xocotitla
+2970,485,1,Ampliación Del Gas
+2980,486,1,Arenal
+2980,487,1,Patrimonio Familiar
+2990,488,1,La Raza
+3000,489,1,Piedad Narvarte
+3010,491,1,Atenor Salas
+3020,493,1,Narvarte Poniente
+3023,2623,1,Narvarte Oriente
+3100,496,1,Del Valle Centro
+3100,2624,1,Insurgentes San Borja
+3103,2621,1,Del Valle Norte
+3104,2622,1,Del Valle Sur
+3200,501,1,Tlacoquemécatl
+3230,505,1,Actipan
+3240,506,1,Acacias
+3300,507,1,Portales Sur
+3303,2625,1,Portales Norte
+3310,509,1,Santa Cruz Atoyac
+3320,512,1,Residencial Emperadores
+3330,513,1,Xoco
+3340,515,1,General Pedro María Anaya
+3400,516,1,Álamos
+3410,518,1,Postal
+3420,519,1,Miguel Alemán
+3430,521,1,Josefa Ortiz de Domínguez
+3440,522,1,Niños Héroes
+3500,523,1,Nativitas
+3510,525,1,Moderna
+3520,526,1,Iztaccihuatl
+3530,527,1,Villa de Cortés
+3540,528,1,Del Carmen
+3550,529,1,Zacahuitzco
+3560,530,1,Albert
+3570,531,1,Portales Oriente
+3580,532,1,Miravalle
+3590,533,1,Ermita
+3600,534,1,Vértiz Narvarte
+3610,535,1,Américas Unidas
+3620,536,1,Periodista
+3630,537,1,Independencia
+3640,538,1,Del Lago
+3650,539,1,Letrán Valle
+3660,540,1,San Simón Ticumac
+3700,541,1,Santa María Nonoalco
+3710,542,1,Ciudad de los Deportes
+3720,543,1,Nochebuena
+3730,544,1,San Juan
+3740,545,1,Extremadura Insurgentes
+3800,546,1,San Pedro de los Pinos
+3810,548,1,Nápoles
+3820,552,1,8 de Agosto
+3840,554,1,Ampliación Nápoles
+3900,556,1,San José Insurgentes
+3910,558,1,Mixcoac
+3920,559,1,Insurgentes Mixcoac
+3930,561,1,Merced Gómez
+3940,562,1,Crédito Constructor
+4000,563,1,Villa Coyoacán
+4010,566,3,Santa Catarina
+4020,567,3,La Concepción
+4030,569,3,San Lucas
+4040,570,1,Parque San Andrés
+4100,571,1,Del Carmen
+4120,577,1,San Diego Churubusco
+4120,578,1,San Mateo
+4200,580,1,Campestre Churubusco
+4210,582,1,Churubusco Country Club
+4230,584,1,Prado Churubusco
+4240,586,1,Hermosillo
+4250,587,1,Paseos de Taxqueña
+4260,590,3,San Francisco Culhuacán Barrio de San Francisco
+4260,2807,3,San Francisco Culhuacán Barrio de La Magdalena
+4260,2808,3,San Francisco Culhuacán Barrio de Santa Ana
+4260,2831,3,San Francisco Culhuacán Barrio de San Juan
+4300,596,1,Ajusco
+4310,601,1,Romero de Terreros
+4318,603,3,Oxtopulco Universidad
+4320,606,1,Cuadrante de San Francisco
+4320,608,1,Pedregal de San Francisco
+4330,612,1,El Rosedal
+4330,613,2,Los Reyes
+4330,614,3,Del Niño Jesús
+4340,622,1,Copilco El Bajo
+4360,632,1,Copilco El Alto
+4360,633,1,Copilco Universidad
+4369,636,1,Pedregal de Santo Domingo
+4370,637,1,Atlántida
+4370,638,1,Ciudad Jardín
+4380,640,1,El Rosario
+4380,641,2,La Candelaria
+4390,643,1,Huayamilpas
+4390,644,1,Nueva Díaz Ordaz
+4400,645,1,Educación
+4410,646,1,Petrolera Taxqueña
+4420,649,1,Ex-Ejido de San Francisco Culhuacán
+4440,651,1,Culhuacán CTM Sección V
+4440,2810,1,Culhuacán CTM Sección II
+4440,2811,1,Culhuacán CTM Sección I
+4450,652,1,El Centinela
+4460,653,1,Avante
+4470,655,1,Presidentes Ejidales 1a Sección
+4470,2805,1,Presidentes Ejidales 2a Sección
+4480,657,1,Culhuacán CTM Sección VI
+4480,2809,1,Culhuacán CTM Sección III
+4480,2812,1,Culhuacán CTM CROC
+4480,2815,1,Culhuacán CTM Sección X-A
+4489,658,1,Culhuacán CTM Sección VII
+4490,659,1,Culhuacán CTM Sección Piloto
+4490,2813,1,Culhuacán CTM Canal Nacional
+4500,660,1,Jardines del Pedregal de San Ángel
+4510,2793,4,Universidad Nacional Autónoma de México
+4519,664,1,La Otra Banda
+4530,665,1,Insurgentes Cuicuilco
+4600,669,1,Pedregal de Santa Úrsula
+4610,670,1,Xotepingo
+4620,671,2,San Pablo Tepetlapa
+4630,672,1,Adolfo Ruiz Cortínes
+4640,673,1,El Reloj
+4650,676,2,Santa Úrsula Coapa
+4660,677,1,Joyas del Pedregal
+4700,678,1,Pedregal de Carrasco
+4710,680,1,Olímpica
+4730,686,1,Cantil del Pedregal
+4730,687,1,Bosques de Tetlameya
+4739,690,1,El Caracol
+4800,691,1,Alianza Popular Revolucionaria
+4800,692,1,Los Cedros
+4810,695,1,Prados de Coyoacán
+4815,696,1,Emiliano Zapata
+4830,697,1,Los Cipreses
+4840,2806,1,Ex-Ejido de San Pablo Tepetlapa
+4870,706,1,Espartaco
+4890,708,1,Jardines de Coyoacán
+4890,709,1,Los Olivos
+4899,711,1,El Parque de Coyoacán
+4909,714,1,Culhuacán CTM Sección VIII
+4909,715,1,Culhuacán CTM Sección IX-A
+4909,2814,1,Culhuacán CTM Sección IX-B
+4910,716,1,Carmen Serdán
+4918,717,1,Cafetales
+4919,718,1,Emiliano Zapata Fraccionamiento Popular
+4920,719,1,Los Girasoles
+4929,723,1,Las Campanas
+4930,724,1,Santa Cecilia
+4938,725,1,Campestre Coyoacán
+4939,726,1,Culhuacán CTM Sección X
+4940,727,1,Los Sauces
+4950,728,1,El Mirador
+4960,729,1,Villa Quietud
+4970,730,1,Haciendas de Coyoacán
+4980,674,1,Ex-Ejido de Santa Úrsula Coapa
+4980,731,1,Ex-Hacienda Coapa
+4980,2792,1,Viejo Ejido de Santa Úrsula Coapa
+5000,732,1,Cuajimalpa
+5010,735,1,Zentlapatl
+5020,736,1,Loma del Padre
+5030,737,1,San Pedro
+5030,2867,1,La Manzanita
+5050,740,2,San Pablo Chimalpa
+5100,746,1,Lomas de Vista Hermosa
+5110,748,1,Cooperativa Palo Alto
+5118,751,1,Granjas Palo Alto
+5119,752,1,Campestre Palo Alto
+5120,753,1,Bosques de las Lomas
+5129,758,1,Lomas del Chamizal
+5200,766,1,San José de los Cedros
+5219,768,1,Granjas Navidad
+5220,769,1,Tepetongo
+5230,770,1,El Ébano
+5240,774,1,El Molino
+5260,777,1,Jesús del Monte
+5269,780,1,Amado Nervo
+5270,782,1,Manzanastitla
+5280,783,1,Adolfo López Mateos
+5310,785,1,El Molinito
+5320,786,1,El Yaqui
+5330,787,1,Lomas de Memetla
+5330,788,1,Memetla
+5330,789,1,Ampliación Memetla
+5330,2869,1,Ampliación el Yaqui
+5348,792,1,Santa Fe Cuajimalpa
+5360,794,1,Locaxco
+5370,797,1,Las Tinajas
+5379,799,1,Lomas de San Pedro
+5400,800,1,El Tianguillo
+5410,801,2,San Lorenzo Acopilco
+5410,2866,1,1° de Mayo
+5500,803,1,Contadero
+5520,808,1,La Venta
+5530,809,1,Abdías García Soto
+5600,810,2,San Mateo Tlaltenango
+5610,2868,2,Santa Rosa Xochiac
+5700,819,1,Cruz Blanca
+5710,820,1,Las Maromas
+5730,825,1,Xalpa
+5750,827,1,La Pila
+5760,829,1,Las Lajas
+5780,833,1,Agua Bendita
+6000,838,1,Centro (Área 1)
+6010,847,1,Centro (Área 2)
+6020,850,1,Centro (Área 3)
+6030,853,1,Tabacalera
+6040,860,1,Centro (Área 4)
+6050,863,1,Centro (Área 5)
+6060,867,1,Centro (Área 6)
+6070,873,1,Centro (Área 7)
+6080,875,1,Centro (Área 8)
+6090,879,1,Centro (Área 9)
+6100,882,1,Hipódromo
+6140,884,1,Condesa
+6170,886,1,Hipódromo Condesa
+6200,891,1,Morelos
+6220,894,1,Peralvillo
+6240,895,1,Valle Gómez
+6250,896,1,Ex-Hipódromo de Peralvillo
+6270,898,1,Maza
+6280,899,1,Felipe Pescador
+6300,900,1,Guerrero
+6350,906,1,Buenavista
+6400,911,1,Santa María la Ribera
+6430,913,1,Santa María Insurgentes
+6450,914,1,Atlampa
+6470,915,1,San Rafael
+6500,919,1,Cuauhtémoc
+6600,930,1,Juárez
+6700,947,1,Roma Norte
+6720,955,1,Doctores
+6760,966,1,Roma Sur
+6780,970,1,Buenos Aires
+6800,974,1,Obrera
+6820,978,1,Tránsito
+6840,980,1,Esperanza
+6850,981,1,Asturias
+6860,982,1,Vista Alegre
+6870,983,1,Paulino Navarro
+6880,984,1,Algarin
+6890,986,1,Ampliación Asturias
+6900,988,1,Nonoalco Tlatelolco
+6920,989,1,San Simón Tolnáhuac
+7000,991,1,Aragón la Villa
+7010,994,1,Rosas del Tepeyac
+7010,995,1,Santa Isabel Tola
+7010,996,1,Tepetates
+7020,997,1,Tepeyac Insurgentes
+7040,998,2,Santiago Atzacoalco
+7050,1001,1,Villa Gustavo A. Madero
+7058,1003,1,15 de Agosto
+7060,1005,1,Estanzuela
+7069,1006,1,Triunfo de La República
+7070,1007,1,La Cruz
+7070,1008,1,Dinamita
+7070,1010,1,Martín Carrera
+7080,1011,1,Gabriel Hernández
+7089,1012,1,Ampliación Gabriel Hernández
+7090,1013,1,C.T.M. Atzacoalco
+7090,1014,1,C.T.M. El Risco
+7100,1016,1,Cuautepec Barrio Alto
+7100,1017,1,San Miguel
+7109,1019,1,San Antonio
+7110,1021,1,Lomas de Cuautepec
+7119,1022,1,Malacates
+7119,1227,1,Ampliación Malacates
+7130,1023,1,Compositores Mexicanos
+7130,1024,1,El Tepetatal
+7140,1026,1,Arboledas
+7140,1027,1,Ampliación Arboledas
+7140,1028,1,Forestal
+7140,1029,1,Forestal I
+7144,2885,1,Forestal II
+7144,2887,1,La Lengüeta
+7149,1031,1,Parque Metropolitano
+7150,1032,1,Juventino Rosas
+7150,1033,1,La Casilda
+7160,1034,1,Loma La Palma
+7164,2548,1,Luis Donaldo Colosio
+7164,2549,1,Tlacaélel
+7164,2717,1,Graciano Sánchez
+7164,2718,1,Prados de Cuautepec
+7170,1035,1,Palmatitla
+7180,1036,1,Cocoyotes
+7180,1037,1,General Felipe Berriozabal
+7180,2687,1,Ampliación Cocoyotes
+7183,2688,1,6 de Junio
+7187,1038,1,Vista Hermosa
+7188,1039,1,Tlalpexco
+7189,1040,1,Ahuehuetes
+7190,1041,1,Valle de Madero
+7199,1042,1,Del Carmen
+7200,1043,1,Cuautepec de Madero
+7207,1046,1,Del Bosque
+7209,1048,1,Guadalupe Victoria Cuautepec
+7210,1049,1,Chalma de Guadalupe
+7214,2884,1,Ampliación Chalma de Guadalupe
+7220,1051,1,Castillo Chico
+7220,1052,1,Castillo Grande
+7224,2883,1,Ampliación Castillo Grande
+7230,1053,1,Zona Escolar
+7239,1054,1,Zona Escolar Oriente
+7240,1056,1,El Arbolillo
+7250,1061,1,Benito Juárez
+7259,1063,1,Ampliación Benito Juárez
+7268,1065,1,Solidaridad Nacional
+7270,1067,1,Residencial Acueducto de Guadalupe
+7279,1069,1,Acueducto de Guadalupe
+7280,1070,1,Jorge Negrete
+7290,1071,1,La Pastora
+7300,1072,1,Lindavista Norte
+7300,2888,1,Lindavista Sur
+7310,1075,3,Candelaria Ticomán
+7320,1079,3,La Purísima Ticomán
+7320,1080,1,Residencial la Escalera
+7330,1085,1,Santa María Ticomán
+7340,1087,3,La Laguna Ticomán
+7340,1088,1,San José Ticomán
+7350,1091,3,Guadalupe Ticomán
+7350,1092,3,San Juan y Guadalupe Ticomán
+7359,1093,3,San Rafael Ticomán
+7360,1095,1,San Pedro Zacatenco
+7369,1097,1,Residencial Zacatenco
+7370,1098,1,Capultitlan
+7380,1099,1,Maximino Ávila Camacho
+7380,1100,1,Tlacamaca
+7400,1101,1,Salvador Díaz Mirón
+7410,1102,1,Juan González Romero
+7410,1103,1,Villa Hermosa
+7420,1105,1,El Coyol
+7420,1106,1,Nueva Atzacoalco
+7430,1108,1,Del Obrero
+7440,1109,1,Vasco de Quiroga
+7450,1110,1,DM Nacional
+7455,1111,1,Ferrocarrilera
+7456,1112,1,LI Legislatura
+7460,1117,1,Granjas Modernas
+7469,1118,1,Constitución de la República
+7470,1119,1,Ampliación San Juan de Aragón
+7480,1120,1,San Pedro El Chico
+7500,1122,1,La Pradera
+7509,1125,1,Pradera II Sección
+7510,1126,1,San Felipe de Jesús
+7520,1128,1,25 de Julio
+7530,1129,1,Campestre Aragón
+7540,1131,1,La Esmeralda
+7550,1135,1,Providencia
+7560,1136,1,Ampliación Providencia
+7570,1137,1,Villa de Aragón
+7580,1138,1,Ampliación Casas Alemán
+7600,1139,1,Progreso Nacional
+7620,1141,1,Santa Rosa
+7630,1142,1,San José de la Escalera
+7640,1143,1,Santiago Atepetlac
+7650,1144,1,Ampliación Progreso Nacional
+7670,1146,1,Guadalupe Proletaria
+7680,1147,1,Ampliación Guadalupe Proletaria
+7700,1148,1,Nueva Industrial Vallejo
+7707,1149,1,Siete Maravillas
+7708,1150,1,Torres Lindavista
+7720,1153,1,Lindavista Vallejo I Sección
+7730,1155,1,Churubusco Tepeyac
+7730,1156,1,Montevideo
+7730,1157,1,San Bartolo Atepehuacan
+7739,1159,1,Planetario Lindavista
+7740,1160,1,Valle del Tepeyac
+7750,1161,1,Nueva Vallejo
+7754,2890,1,Lindavista Vallejo III Sección
+7755,2889,1,Lindavista Vallejo II Sección
+7760,1162,1,Magdalena de las Salinas
+7770,1163,1,Panamericana
+7770,1164,1,Ampliación Panamericana
+7780,1166,1,Defensores de La República
+7780,1167,1,Héroe de Nacozari
+7790,1168,1,Guadalupe Victoria
+7790,1169,1,Vallejo Poniente
+7800,1170,1,Industrial
+7810,1172,1,Estrella
+7820,1174,1,Aragón Inguarán
+7820,1175,1,Tres Estrellas
+7830,1176,1,Gertrudis Sánchez 1a Sección
+7838,2886,1,Gertrudis Sánchez 3a Sección
+7839,1178,1,Gertrudis Sánchez 2a Sección
+7840,1179,1,Guadalupe Tepeyac
+7840,1180,1,7 de Noviembre
+7850,1181,1,Bondojito
+7850,1182,1,Faja de Oro
+7858,1183,1,Ampliación Emiliano Zapata
+7859,1184,1,Ampliación Mártires de Río Blanco
+7860,1185,1,La Joyita
+7860,1187,1,Tablas de San Agustín
+7869,1188,1,Belisario Domínguez
+7870,1189,1,Guadalupe Insurgentes
+7870,1190,1,Vallejo
+7880,1191,1,Mártires de Río Blanco
+7889,1192,1,Emiliano Zapata
+7890,1194,1,La Joya
+7890,1195,1,Nueva Tenochtitlán
+7890,1193,1,Cuchilla La Joya
+7899,1196,1,La Malinche
+7900,1197,1,Cuchilla del Tesoro
+7910,1199,1,San Juan de Aragón VII Sección
+7918,1200,1,San Juan de Aragón VI Sección
+7919,1201,1,Ex Ejido San Juan de Aragón Sector 32
+7920,1202,1,El Olivo
+7920,1203,1,San Juan de Aragón
+7930,1204,1,Indeco
+7939,1205,1,Héroes de Chapultepec
+7940,1206,1,Ex Ejido San Juan de Aragón Sector 33
+7950,1207,2,San Juan de Aragón
+7960,1211,1,Héroes de Cerro Prieto
+7960,1212,1,Ex Escuela de Tiro
+7960,1213,1,Fernando Casas Alemán
+7969,1215,1,San Juan de Aragón I Sección
+7969,1216,1,San Juan de Aragón II Sección
+7970,1217,1,San Juan de Aragón III Sección
+7979,1218,1,San Juan de Aragón IV Sección
+7979,1219,1,San Juan de Aragón V Sección
+7980,1220,1,Narciso Bassols
+7990,1222,1,C.T.M. Aragón
+8000,1233,1,Gabriel Ramos Millán Sección Bramadero
+8010,1237,1,Ex-Ejido de La Magdalena Mixiuhca
+8020,1238,1,Ampliación Gabriel Ramos Millán
+8030,1241,1,Gabriel Ramos Millán Sección Cuchilla
+8040,1242,1,Carlos Zapata Vela
+8100,1244,1,Agrícola Pantitlán
+8200,1250,1,Viaducto Piedad
+8210,1251,1,Nueva Santa Anita
+8220,1252,3,San Pedro
+8230,1253,3,San Francisco Xicaltongo
+8240,1254,3,Santiago Norte
+8300,1255,1,Santa Anita
+8310,1256,1,La Cruz
+8320,1257,1,Fraccionamiento Coyuya
+8400,1258,1,Granjas México
+8420,1262,1,Cuchilla Agrícola Oriental
+8500,1263,1,Agrícola Oriental
+8510,1265,1,El Rodeo
+8600,1269,3,La Asunción
+8610,1270,3,Zapotla
+8620,1272,3,Los Reyes
+8650,1277,3,San Miguel
+8700,1278,1,Juventino Rosas
+8710,1279,1,Tlazintla
+8720,1280,1,Gabriel Ramos Millán Sección Tlacotal
+8730,1281,1,Gabriel Ramos Millán
+8760,1284,1,INPI Picos
+8760,2795,1,Los Picos de Iztacalco Sección 2A
+8760,2796,1,Los Picos de Iztacalco Sección 1B
+8770,1285,1,Los Picos de Iztacalco Sección 1A
+8800,1286,3,Santiago Sur
+8810,1288,1,Reforma Iztaccíhuatl Norte
+8830,1291,1,Militar Marte
+8840,1292,1,Reforma Iztaccíhuatl Sur
+8900,1293,1,INFONAVIT Iztacalco
+8910,1294,3,Santa Cruz
+8920,1295,1,Jardines Tecma
+8930,1296,1,5 2 de Octubre
+9000,1299,3,La Asunción
+9000,1300,3,San Ignacio
+9000,1301,3,San José
+9000,1302,3,San Lucas
+9000,1303,3,San Pablo
+9000,1304,3,San Pedro
+9000,1305,3,Santa Bárbara
+9010,1308,1,Real del Moral
+9020,1310,1,Doctor Alfonso Ortiz Tirado
+9030,1314,1,Paseos de Churubusco
+9040,1316,1,Central de Abasto
+9060,1320,1,Escuadrón 201
+9060,1321,1,Sector Popular
+9070,1322,1,Granjas de San Antonio
+9080,1325,1,Cacama
+9089,1328,1,Unidad Modelo
+9090,1329,1,Héroes de Churubusco
+9099,1330,2,Mexicaltzingo
+9100,1331,1,Juan Escutia
+9130,1334,2,San Lorenzo Xicotencatl
+9140,1335,1,Santa Martha Acatitla Norte
+9180,1339,1,Ermita Zaragoza
+9200,1341,1,Unidad Vicente Guerrero
+9208,1345,1,Chinampac de Juárez
+9209,1352,1,Renovación
+9210,1355,1,Tepalcates
+9220,1357,1,Unidad Ejército Constitucionalista
+9230,1364,1,Álvaro Obregón
+9230,1365,1,Ejército de Oriente
+9230,1368,1,El Paraíso
+9230,1369,1,José María Morelos y Pavón
+9239,1370,1,Ejército de Oriente Zona Peñón
+9240,1371,1,Progresista
+9250,1373,1,La Regadera
+9260,1375,1,Constitución de 1917
+9270,1376,1,Colonial Iztapalapa
+9280,1377,1,Jacarandas
+9290,1378,1,Santa Cruz Meyehualco
+9300,1380,1,Guadalupe del Moral
+9310,1382,1,Leyes de Reforma 1a Sección
+9310,1383,1,Leyes de Reforma 2a Sección
+9310,2839,1,Leyes de Reforma 3a Sección
+9319,1384,1,Cuchilla del Moral
+9320,1388,1,Sideral
+9350,1392,1,Albarrada
+9359,1393,1,Eva Sámano de López Mateos
+9360,1398,3,San Miguel
+9360,1399,1,Ampliación San Miguel
+9400,1407,2,San Juanico Nextipac
+9400,1408,1,El Sifón
+9410,1410,2,Aculco
+9410,1412,1,Jardines de Churubusco
+9410,1413,2,Magdalena Atlazolpa
+9410,1414,1,San José Aculco
+9420,1415,1,Los Picos VI-B
+9420,1416,1,Nueva Rosita
+9429,1417,1,Purísima Atlazolpa
+9430,1418,1,Apatlaco
+9430,1419,1,El Triunfo
+9438,1422,1,Ampliación El Triunfo
+9440,1425,1,El Retoño
+9440,1426,1,San Andrés Tetepilco
+9440,2840,1,Zacahuitzco
+9450,1429,1,Banjidal
+9460,1430,1,Justo Sierra
+9470,1431,1,Sinatel
+9479,1432,1,Ampliación Sinatel
+9480,1433,1,El Prado
+9500,1435,2,Santa María Aztahuacán
+9500,2565,1,Santa María Aztahuacán Ampliación
+9510,1436,2,Santa Martha Acatitla
+9520,1439,1,El Edén
+9520,1440,2,San Sebastián Tecoloxtitla
+9530,1441,1,Santa Martha Acatitla Sur
+9550,1443,1,Monte Alban
+9560,1444,1,Paraje Zacatepec
+9570,1445,1,Santa María Aztahuacán
+9578,1449,1,Ejército de Agua Prieta
+9600,1453,2,Santiago Acahualtepec
+9608,1454,1,Santiago Acahualtepec 1ra. Ampliación
+9609,1455,1,Santiago Acahualtepec 2a. Ampliación
+9620,1456,1,Lomas de Zaragoza
+9630,1481,1,San Miguel Teotongo Sección Corrales
+9630,2850,1,San Miguel Teotongo Sección Acorralado
+9630,2851,1,San Miguel Teotongo Sección Avisadero
+9630,2852,1,San Miguel Teotongo Sección Capilla
+9630,2853,1,San Miguel Teotongo Sección Guadalupe
+9630,2854,1,San Miguel Teotongo Sección Iztlahuaca
+9630,2855,1,San Miguel Teotongo Sección Jardines
+9630,2856,1,San Miguel Teotongo Sección La Cruz
+9630,2857,1,San Miguel Teotongo Sección Loma Alta
+9630,2858,1,San Miguel Teotongo Sección Mercedes
+9630,2859,1,San Miguel Teotongo Sección Palmitas
+9630,2860,1,San Miguel Teotongo Sección Puente
+9630,2861,1,San Miguel Teotongo Sección Ranchito
+9630,2862,1,San Miguel Teotongo Sección Rancho Bajo
+9630,2863,1,San Miguel Teotongo Sección Torres
+9637,1461,1,Campestre Potrero
+9638,1462,1,Ampliación Emiliano Zapata
+9640,1464,1,Lomas de la Estancia
+9640,1465,1,Xalpa
+9648,1467,1,San Pablo
+9660,1470,1,Citlalli
+9670,1471,1,Palmitas
+9680,1473,1,Tenorios
+9689,1477,1,Barranca de Guadalupe
+9690,1478,1,Iztlahuacán
+9696,1480,1,Miravalles
+9698,1482,1,Miguel de La Madrid Hurtado
+9700,1485,1,Buenavista
+9700,1486,1,Carlos Hank González
+9700,1488,1,Desarrollo Urbano Quetzalcóatl
+9700,1491,2,Santa Cruz Meyehualco
+9704,1492,1,Degollado
+9705,2726,1,Degollado - Mexicatlalli
+9706,1497,1,San José Buenavista
+9708,1500,1,Mixcoatl
+9709,1501,1,Lomas de Santa Cruz
+9710,1502,1,Los Ángeles Apanoaya
+9720,1505,1,Francisco Villa
+9720,1506,1,La Era
+9730,1508,1,Reforma Política
+9740,1511,1,Presidentes de México
+9750,1512,1,Insurgentes
+9750,1514,1,La Polvorilla
+9750,1515,1,Las Peñas
+9760,1518,1,Consejo Agrarista Mexicano
+9769,1523,1,El Triángulo
+9770,1524,1,Puente Blanco
+9780,1527,1,Año de Juárez
+9780,1528,1,Lomas de San Lorenzo
+9790,1531,2,San Lorenzo Tezonco
+9800,1532,2,Culhuacán
+9800,1534,1,El Mirador
+9800,1535,1,Estrella Culhuacán
+9800,1536,1,Fuego Nuevo
+9800,1538,1,San Antonio Culhuacán
+9800,1539,3,San Antonio Culhuacán
+9800,1540,3,San Simón Culhuacán
+9800,1541,3,Tula
+9800,1542,1,Valle de Luces
+9810,1547,1,Granjas Esmeralda
+9810,1548,1,Los Cipreses
+9810,1549,1,Minerva
+9810,1550,1,Progreso del Sur
+9819,1551,1,Valle del Sur
+9820,1552,1,El Santuario
+9820,1553,1,Estrella del Sur
+9820,1556,1,Ricardo Flores Magón
+9820,1557,1,Santa Isabel Industrial
+9828,1559,1,Ampliación Ricardo Flores Magón
+9829,1560,1,Ampliación El Santuario
+9830,1562,1,El Manto
+9830,1563,1,El Molino
+9830,1565,1,Lomas El Manto
+9830,1566,1,Los Ángeles
+9830,1568,1,Paraje San Juan
+9837,1570,1,San Miguel 8va. Ampliación
+9838,1571,1,Plan de Iguala
+9839,1573,1,Ampliación Paraje San Juan
+9839,1576,1,San Juan Joya
+9840,1578,2,Los Reyes Culhuacán
+9849,1580,1,Ampliación Los Reyes
+9850,1586,1,San Juan Xalpa
+9850,1588,1,San Nicolás Tolentino
+9850,1589,1,Santa María del Monte
+9856,1590,1,Estado de Veracruz
+9856,1591,1,Ampliación Veracruzana
+9858,1594,1,Paraje San Juan Cerro
+9859,1595,1,Benito Juárez
+9860,1596,1,Bellavista
+9860,1597,1,Ampliación Bellavista
+9860,1598,1,Casa Blanca
+9860,1600,1,Cerro de La Estrella
+9860,1601,1,Parque Nacional Cerro de la Estrella
+9860,1602,1,El Rodeo
+9868,1607,1,San Juan Estrella
+9870,1609,1,12 de Diciembre
+9870,1611,1,San Andrés Tomatlán
+9870,1613,2,San Andrés Tomatlán
+9870,1616,2,Santa María Tomatlán
+9880,1620,1,El Vergel
+9880,1621,1,Granjas Estrella
+9890,1629,1,Lomas Estrella
+9897,1633,1,Carlos Jonguitud Barrios
+9900,1637,3,Guadalupe
+9900,1638,3,San Antonio
+9900,1639,3,San Lorenzo
+9910,1640,1,La Esperanza
+9920,1643,1,José López Portillo
+9930,1644,1,El Rosario
+9940,1645,1,Jardines de San Lorenzo Tezonco
+9960,1646,1,Celoalliotli
+9960,1647,1,USCOVI
+9960,1648,1,El Molino Tezonco
+9960,1961,1,Allapetlalli
+9960,2736,1,La Planta
+9969,1651,1,Cananea
+9970,1652,1,Valle de San Lorenzo
+10000,1672,1,Lomas Quebradas
+10010,1673,1,La Malinche
+10010,1674,1,San Bartolo Ameyalco
+10020,1675,1,Cuauhtémoc
+10130,1681,1,El Maestro
+10200,1682,1,San Jerónimo Lídice
+10300,1686,2,San Bernabé Ocotepec
+10320,1690,1,El Tanque
+10330,1691,1,Las Cruces
+10340,1692,1,Los Padres
+10350,1693,1,Lomas de San Bernabé
+10360,1694,1,Huayatla
+10368,1695,1,Ampliación Potrerillo
+10369,1696,1,Ampliación Lomas de San Bernabé
+10369,2669,1,Tierra Unida
+10370,1697,1,Palmas
+10378,1698,1,Atacaxco
+10379,1700,1,Vista Hermosa
+10380,1701,1,Barros Sierra
+10400,1702,1,San Jerónimo Aculco
+10500,1703,1,Barrio San Francisco
+10580,1707,1,Barranca Seca
+10600,1710,1,El Rosal
+10610,1713,1,El Toro
+10620,1714,1,Potrerillo
+10630,2706,5,El Ocotal
+10640,1716,1,La Carbonera
+10640,1717,1,Pueblo Nuevo Alto
+10640,1718,1,Pueblo Nuevo Bajo
+10660,1720,1,El Ermitaño
+10700,1721,1,Héroes de Padierna
+10710,1723,1,Santa Teresa
+10800,1728,1,La Cruz
+10810,1730,1,San Francisco
+10820,1731,1,La Guadalupe
+10830,1732,1,La Concepción
+10840,1733,3,Las Calles
+10840,1734,3,Plazuela del Pedregal
+10900,1735,2,San Nicolás Totolapan
+10910,1737,2,La Magdalena
+10920,1738,1,Las Huertas
+10926,1739,5,Tierra Colorada
+11000,1745,1,Lomas de Chapultepec I Sección
+11000,2774,1,Lomas de Chapultepec VIII Sección
+11000,2775,1,Lomas de Chapultepec II Sección
+11000,2776,1,Lomas de Chapultepec III Sección
+11000,2777,1,Lomas de Chapultepec IV Sección
+11000,2778,1,Lomas de Chapultepec V Sección
+11000,2779,1,Lomas de Chapultepec VI Sección
+11000,2780,1,Lomas de Chapultepec VII Sección
+11040,1752,1,Molino del Rey
+11100,1754,4,Bosque de Chapultepec II Sección
+11100,2772,4,Bosque de Chapultepec III Sección
+11200,1757,1,Lomas Hermosa
+11200,1758,1,Lomas de Sotelo
+11210,1761,2,San Lorenzo Tlaltenango
+11220,1764,1,Periodista
+11230,1765,1,Argentina Poniente
+11240,1767,1,Ignacio Manuel Altamirano
+11250,1768,1,10 de Abril
+11260,1770,1,México Nuevo
+11260,1771,1,San Joaquín
+11270,1772,1,Argentina Antigua
+11280,1773,1,Torre Blanca
+11289,1774,1,Ampliación Torre Blanca
+11290,1775,1,Huíchapan
+11290,1776,1,San Diego Ocoyoacac
+11300,1777,1,Verónica Anzures
+11310,1780,1,Mariano Escobedo
+11320,1782,1,Anáhuac I Sección
+11320,2771,1,Anáhuac II Sección
+11330,1784,1,Un Hogar Para Nosotros
+11340,1785,1,Santo Tomas
+11350,1786,1,Plutarco Elías Calles
+11360,1787,1,Agricultura
+11370,1789,1,Tlaxpana
+11400,1791,1,Popotla
+11410,1793,1,Legaria
+11410,1794,2,Tacuba
+11420,1796,1,Nextitla
+11430,1797,1,Pensil Norte
+11430,1798,1,Ventura Pérez de Alva
+11440,1799,1,Reforma Pensil
+11440,1800,1,San Juanico
+11450,1801,1,Ahuehuetes Anáhuac
+11450,1802,1,Modelo Pensil
+11450,1803,1,Peralitos
+11460,1804,1,Dos Lagos
+11460,1805,1,Lago Norte
+11460,1806,1,Lago Sur
+11460,1807,1,Los Manzanos
+11470,1808,1,5 de Mayo
+11470,1809,1,Deportivo Pensil
+11480,1811,1,Francisco I Madero
+11480,1812,1,Popo
+11489,1813,1,Ampliación Popo
+11490,1814,1,Cuauhtémoc Pensil
+11490,1815,1,Pensil Sur
+11500,1816,1,Irrigación
+11510,2781,1,Polanco I Sección
+11520,1822,1,Granada
+11529,1823,1,Ampliación Granada
+11530,2782,1,Polanco II Sección
+11540,2783,1,Polanco III Sección
+11550,2784,1,Polanco IV Sección
+11560,2785,1,Polanco V Sección
+11580,1833,4,Bosque de Chapultepec I Sección
+11590,1838,1,Anzures
+11600,1843,1,Residencial Militar
+11610,1844,1,Manuel Ávila Camacho
+11619,1846,4,Campo Militar 1
+11650,1855,1,Reforma Social
+11700,1856,1,Bosque de las Lomas
+11800,1858,1,Escandón I Sección
+11800,2773,1,Escandón II Sección
+11810,1860,1,16 de Septiembre
+11820,1861,1,América
+11830,1862,1,Daniel Garza
+11840,1863,1,Ampliación Daniel Garza
+11850,1864,1,San Miguel Chapultepec I Sección
+11850,2786,1,San Miguel Chapultepec II Sección
+11860,1865,1,Observatorio
+11870,1867,1,Tacubaya
+11910,1869,1,Lomas de Bezares
+11920,1870,1,Real de las Lomas
+11930,2789,1,Lomas de Reforma
+11950,1874,1,Lomas Altas
+12000,1877,3,La Concepción
+12000,1878,3,La Luz
+12000,1879,3,Los Ángeles
+12000,1881,3,San Mateo
+12000,1882,3,Santa Cruz
+12000,1883,3,Santa Martha
+12000,1884,1,Villa Milpa Alta Centro
+12070,1889,3,San Agustin
+12080,1890,2,San Agustin Ohtenco
+12100,1891,3,Cruztitla
+12100,1893,3,Tecaxtitla
+12100,1894,3,Tenantitla
+12100,1895,3,Xaltipac
+12100,1896,3,Xochitepec
+12110,2010,1,Emiliano Zapata
+12110,2011,1,La Conchita
+12200,1897,3,Nochtla
+12200,1898,3,Ocotitla
+12200,1899,3,Panchimalco
+12200,1901,3,Tula
+12250,1903,2,San Bartolomé Xicomulco
+12300,1904,2,San Salvador Cuauhtenco
+12400,1905,3,Centro
+12400,1906,3,San Juan
+12400,1907,3,San Miguel
+12410,2870,3,Chalmita
+12500,1910,2,San Lorenzo Tlacoyucan
+12600,1911,2,San Jerónimo Miacatlán
+12700,1912,2,San Francisco Tecoxpa
+12800,1913,2,San Juan Tepenahuac
+12910,2871,3,La Lupita Teticpac
+12920,1880,3,San Marcos
+12930,2873,3,San Miguel
+12940,2874,3,San José
+12950,2872,3,La Lupita Xolco
+13000,1919,3,La Asunción
+13010,1923,1,Santa Cecilia
+13020,1924,1,San José
+13030,1925,3,San Juan
+13040,1926,3,San Mateo
+13050,1928,1,La Habana
+13060,1929,3,La Guadalupe
+13060,1930,3,Santa Ana
+13070,1931,3,La Magdalena
+13070,1932,3,San Miguel
+13080,1933,3,Los Reyes
+13090,1934,1,Quiahuatla
+13093,2497,1,San Sebastián
+13094,2898,1,San Isidro
+13099,1935,3,San Andrés
+13100,1937,3,La Guadalupe
+13120,1942,1,Ampliación Santa Catarina
+13120,1943,3,Santiago
+13150,1945,3,La Concepción
+13180,1946,3,San Miguel
+13200,1947,1,Miguel Hidalgo
+13210,1949,1,Los Olivos
+13219,1950,1,Las Arboledas
+13219,1951,1,Ampliación Los Olivos
+13220,1952,1,La Nopalera
+13230,1955,1,Granjas Cabrera
+13250,1957,1,La Turba
+13270,1958,1,Del Mar
+13273,2580,1,La Draga
+13278,1959,1,Villa Centroamericana
+13280,1962,1,Agrícola Metropolitana
+13300,1963,3,Santa Ana Centro
+13300,1964,3,Santiago Centro
+13300,2891,3,Santa Ana Poniente
+13300,2893,3,Santa Ana Norte
+13300,2894,3,Santiago Norte
+13310,1966,1,Zapotitla
+13315,2897,1,Ampliación Zapotitla
+13319,1970,1,La Estación
+13360,1971,1,La Conchita Zapotitlán
+13360,2895,3,Santa Ana Sur
+13360,2896,3,Santiago Sur
+13400,1972,2,San Francisco Tlaltenco
+13410,1973,1,López Portillo
+13419,1975,1,Ampliación José López Portillo
+13420,1976,1,Selene
+13430,1978,1,Ampliación Selene
+13440,1980,1,Zacatenco
+13450,1981,1,Guadalupe Tlaltenco
+13450,1982,1,Ojo de Agua
+13460,1983,1,El Triángulo
+13508,1985,3,San Agustín
+13508,2593,3,La Soledad
+13509,1986,3,La Concepción
+13510,1987,1,La Lupita
+13520,1988,1,Francisco Villa
+13530,1990,1,Jaime Torres Bodet
+13530,1991,1,La Asunción
+13540,1992,1,El Rosario
+13540,1994,1,Tierra Blanca
+13545,2587,1,Ampliación La Conchita
+13549,1995,1,Peña Alta
+13550,1997,1,Jardines del Llano
+13550,1998,1,Potrero del Llano
+13600,2002,3,San Bartolomé
+13610,2004,3,Los Reyes
+13625,2005,3,Santa Cruz
+13630,2007,3,San Agustín
+13640,2008,3,San Miguel
+13700,2009,2,San Nicolás Tetelco
+13700,2892,1,Tepantitlamilco
+14000,2027,1,Tlalpan Centro
+14000,2876,1,Tlalpan
+14010,2029,1,Parque del Pedregal
+14020,2035,1,Villa Olímpica
+14030,2036,1,Isidro Fabela
+14039,2041,1,Ampliación Isidro Fabela
+14040,2042,1,Cantera Puente de Piedra
+14040,2043,1,Pueblo Quieto
+14049,2044,1,Comuneros de Santa Úrsula
+14050,2045,1,Toriello Guerra
+14060,2046,1,Peña Pobre
+14070,2048,1,Rómulo Sánchez Mireles
+14070,2049,3,San Fernando
+14070,2050,1,San Pedro Apóstol
+14080,2051,1,Belisario Domínguez Sección XVI
+14080,2052,3,Del Niño Jesús
+14090,2054,1,La Joya
+14100,2060,1,Pedregal de San Nicolás 1A Sección
+14100,2061,1,Pedregal de San Nicolás 2A Sección
+14100,2062,1,Pedregal de San Nicolás 3A Sección
+14100,2063,1,Pedregal de San Nicolás 4A Sección
+14100,2064,1,Pedregal de San Nicolás 5ª Sección
+14108,2067,1,Chichicaspatl
+14110,2881,1,Ampliación Fuentes del Pedregal
+14120,2071,1,Rincón del Pedregal
+14140,2074,1,Fuentes del Pedregal
+14150,2078,1,Lomas del Pedregal Framboyanes
+14160,2079,1,Popular Santa Teresa
+14200,2080,1,Héroes de Padierna
+14200,2081,1,Jardines del Ajusco
+14208,2083,1,Colinas del Ajusco
+14209,2084,1,Torres de Padierna
+14210,2085,1,Jardines en la Montaña
+14219,2087,4,Six Flags (Reino Aventura)
+14219,2187,4,Parque Nacional Bosque del Pedregal
+14220,2088,1,Cuchilla de Padierna
+14220,2090,1,Lomas del Pedregal
+14230,2091,1,Cultura Maya
+14239,2093,1,Los Encinos
+14240,2094,1,Lomas de Padierna
+14240,2095,1,Lomas Hidalgo
+14248,2096,1,Cruz del Farol
+14250,2098,1,Miguel Hidalgo 2A Sección
+14250,2099,1,Miguel Hidalgo 3A Sección
+14250,2100,1,Miguel Hidalgo 4A Sección
+14250,2101,1,Miguel Hidalgo
+14260,2102,3,El Capulín
+14260,2103,1,Miguel Hidalgo 1A Sección
+14266,2106,1,Zacayucan Peña Pobre
+14267,2107,3,De Caramagüey
+14268,2108,3,La Lonja
+14269,2109,3,La Fama
+14270,2110,1,Primavera
+14270,2112,1,Verano
+14275,2111,1,Paraje 38
+14300,2113,1,Nueva Oriental Coapa
+14300,2114,1,Residencial Acoxpa
+14300,2115,1,Residencial Miramontes
+14308,2879,1,Ex Hacienda Coapa
+14310,2120,1,Belisario Domínguez
+14310,2121,1,Floresta Coyoacán
+14320,2123,1,Vergel Coapa
+14325,2125,1,Rinconada Coapa 2A Sección
+14326,2126,1,Tenorios
+14330,2132,1,Granjas Coapa
+14330,2134,1,Rinconada Coapa 1A Sección
+14340,2145,1,Vergel de Coyoacán
+14340,2146,1,Vergel del Sur
+14350,2147,1,Prado Coapa 1A Sección
+14357,2149,1,Prado Coapa 2A Sección
+14357,2150,1,Prado Coapa 3A Sección
+14360,2153,1,Magisterial
+14360,2877,1,Magisterial Coapa
+14370,2155,1,Residencial Chimali
+14370,2157,2,San Lorenzo Huipulco
+14370,2158,1,Villa Lázaro Cárdenas
+14376,2159,1,Arboledas del Sur
+14377,2161,1,Hacienda San Juan
+14380,2163,1,A.M.S.A
+14380,2167,1,San Bartolo El Chico
+14386,2168,1,Rancho los Colorines
+14387,2169,1,Ex Hacienda San Juan de Dios
+14388,2170,1,Guadalupe
+14389,2172,1,Arenal de Guadalupe
+14390,2174,1,Rinconada Las Hadas
+14390,2175,1,Narciso Mendoza
+14390,2176,1,Residencial Villa Coapa
+14390,2878,1,Villa Coapa
+14400,2179,2,San Andrés Totoltepec
+14406,2182,1,Divisadero
+14408,2183,1,Nuevo Renacimiento de Axalco
+14410,2186,1,Fuentes Brotantes
+14420,2188,1,Cumbres de Tepetongo
+14420,2190,1,Mesa de los Hornos
+14420,2192,1,Santa Úrsula Xitla
+14426,2194,1,Texcaltenco
+14426,2195,1,Tlaxcaltenco la Mesa
+14427,2196,1,San Juan Tepeximilpa
+14427,2197,1,Tepeximilpa la Paz
+14429,2200,1,Santísima Trinidad
+14430,2201,3,El Truenito
+14430,2203,1,Tlalcoligia
+14438,2205,1,Pedregal de Santa Úrsula Xitla
+14439,2206,1,Pedregal de las Águilas
+14440,2207,1,Los Volcanes
+14449,2208,1,El Mirador 1A Sección
+14449,2209,1,El Mirador 2A Sección
+14449,2210,1,El Mirador 3A Sección
+14456,2,1,Atocpa
+14460,2213,1,Tlalpuente
+14470,2214,1,Plan de Ayala
+14476,2216,1,La Palma
+14479,2219,1,Viveros Coatectlán
+14480,2220,2,La Magdalena Petlacalco
+14490,2221,2,San Miguel Xicalco
+14500,2222,2,San Miguel Topilejo
+14600,2229,1,Valle Escondido
+14608,2231,1,Colinas del Bosque
+14609,2232,1,Las Tórtolas
+14610,2233,1,Arenal Tepepan
+14620,2741,1,Club de Golf México
+14629,2236,1,San Buenaventura
+14630,2237,2,Chimalcoyoc
+14630,2238,1,Villa Tlalpan
+14640,2240,1,Ejidos de San Pedro Mártir
+14643,2241,1,Fuentes de Tepepan
+14646,2245,1,Valle de Tepepan
+14647,2246,1,Juventud Unida
+14647,2247,1,Movimiento Organizado de Tlalpan
+14647,2880,1,Rinconada El Mirador
+14650,2252,2,San Pedro Mártir
+14653,2882,1,Heróico Colegio Militar
+14654,2453,1,Dolores Tlalli
+14655,2256,1,Valle Verde
+14657,2258,1,Tlalmille
+14658,2259,1,Mirador del Valle
+14659,2260,1,María Esther Zuno de Echeverría
+14700,2261,2,San Miguel Ajusco
+14710,2262,2,Santo Tomas Ajusco
+14720,2263,1,Belvedere Ajusco
+14730,2265,1,Lomas de Cuilotepec
+14734,2266,1,El Zacatón
+14735,2695,5,Lomas de Tepemecatl
+14737,2268,1,Vistas del Pedregal
+14738,2269,1,Bosques del Pedregal
+14739,2270,1,2 de Octubre
+14740,2272,1,Lomas de Padierna Sur
+14748,2273,1,Mirador I
+14748,2274,1,Mirador II
+14749,2275,1,Chimilli
+14760,2278,1,Héroes de 1910
+14900,2286,2,Parres El Guarda
+15000,2287,1,General Ignacio Zaragoza
+15010,2289,1,Valentín Gómez Farias
+15020,2290,1,Puebla
+15100,2291,1,Zona Centro
+15200,2293,1,Janitzio
+15210,2294,1,Valle Gómez
+15220,2295,1,Nicolás Bravo
+15220,2296,1,Popular Rastro
+15230,2297,1,Emilio Carranza
+15240,2298,1,Michoacana
+15250,2299,1,Ampliación Michoacana
+15260,2300,1,Ampliación 20 de Noviembre
+15270,2301,1,Morelos
+15280,2302,1,Penitenciaria
+15290,2303,1,10 de Mayo
+15300,2305,1,20 de Noviembre
+15309,2307,1,5o Tramo 20 de Noviembre
+15310,2308,1,Felipe Ángeles
+15320,2309,1,Azteca
+15330,2310,1,Tres Mosqueteros
+15339,2311,1,Ampliación Venustiano Carranza
+15340,2312,1,Venustiano Carranza
+15350,2313,1,Ampliación Penitenciaria
+15370,2315,1,Progresista
+15380,2316,1,Escuela de Tiro
+15390,2319,1,7 de Julio
+15400,2320,1,Romero Rubio
+15410,2321,1,Simón Bolívar
+15420,2322,1,Ampliación Simón Bolívar
+15430,2323,1,Aquiles Serdán
+15440,2324,1,1° de Mayo
+15450,2325,1,Damián Carmona
+15460,2326,1,Revolución
+15470,2327,1,Miguel Hidalgo
+15500,2328,1,Moctezuma 1a Sección
+15510,2330,1,Pensador Mexicano
+15520,2331,1,Peñón de los Baños
+15530,2332,1,Moctezuma 2a Sección
+15540,2333,1,Santa Cruz Aviación
+15600,2334,1,Arenal 1a Sección
+15610,2335,1,Cuchilla Pantitlán
+15620,2336,6,México (Licenciado Benito Juárez)
+15630,2340,1,Caracol
+15640,2342,1,Arenal 4a Sección
+15640,2351,1,Arenal Puerto Aéreo
+15650,2343,1,Ampliación Caracol
+15660,2344,1,Arenal 3a Sección
+15670,2346,1,Adolfo López Mateos
+15680,2347,1,Arenal 2a Sección
+15700,2349,1,Federal
+15710,2350,1,Industrial Puerto Aéreo
+15730,2353,1,4 Árboles
+15740,2354,1,Aviación Civil
+15750,2355,1,Ampliación Aviación Civil
+15800,2356,1,Jamaica
+15810,2358,1,Merced Balbuena
+15820,2359,1,Lorenzo Boturini
+15830,2360,1,Artes Gráficas
+15840,2361,1,Sevilla
+15850,2362,1,Magdalena Mixiuhca
+15860,2363,2,La Magdalena Mixiuhca
+15870,2364,1,Aarón Sáenz
+15900,2365,1,Jardín Balbuena
+15960,2372,1,Del Parque
+15970,2376,1,Aeronáutica Militar
+15980,2377,1,24 de Abril
+15990,2378,1,Álvaro Obregón
+16000,2379,3,La Concepción Tlacoapa
+16000,2380,3,San Antonio
+16000,2381,3,San Juan
+16010,2385,1,Bosque Residencial del Sur
+16010,2386,1,Las Peritas
+16010,2388,1,Paseos del Sur
+16010,2832,1,San Bartolo El Chico
+16020,2395,1,San Juan Tepepan
+16020,2396,2,Santa María Tepepan
+16029,2399,1,Ampliación Tepepan
+16030,2401,1,Huichapan
+16030,2402,1,La Noria
+16030,2403,1,Potrero de San Bernardino
+16030,2919,1,Ampliación La Noria
+16034,2405,3,18
+16035,2407,1,San Lorenzo La Cebada
+16035,2833,1,Rinconada Coapa
+16036,2408,4,Mercado de Flores Plantas y Hortalizas
+16038,2409,1,Ampliación San Marcos Norte
+16040,2411,3,La Asunción
+16040,2412,3,San Lorenzo
+16050,2413,1,Jardines del Sur
+16050,2414,3,San Marcos
+16050,2415,1,Tierra Nueva
+16059,13,12,'Pueblo Santiago Tepalcatlalpan
+16060,2421,1,El Mirador'''
+16070,2423,3,Belén
+16070,2424,3,El Rosario
+16070,2425,3,La Guadalupita
+16070,2426,3,Santa Crucita
+16080,2427,3,La Santísima
+16080,2428,3,San Cristóbal
+16080,2429,3,San Diego
+16080,2430,3,San Esteban
+16083,2431,3,Caltongo
+16090,2432,3,San Pedro
+16090,2433,1,Tablas de San Lorenzo
+16090,2434,3,Xaltocan
+16100,2439,2,Santa Cruz Xochitepec
+16200,2443,2,Santiago Tepalcatlalpan
+16210,2444,1,La Concha
+16240,2446,1,Tlaxopan
+16300,2458,2,San Lucas Xochimanca
+16310,2459,1,La Cañada
+16320,2460,1,San Lucas Oriente
+16340,2462,1,Texmic
+16400,2464,2,San Lorenzo Atemoaya
+16410,2465,1,Lomas de Tonalco
+16420,2466,1,San Jerónimo
+16428,2467,1,El Jazmín
+16429,2468,1,Rancho Tejomulco
+16430,2470,1,Xochipilli
+16440,2471,1,Año de Juárez
+16443,2899,3,Pocitos
+16450,2472,2,Santa María Nativitas
+16457,2480,1,Lomas de Nativitas
+16459,2473,1,Ampliación Nativitas
+16500,2475,2,Santa Cruz Acalpixca
+16513,2900,3,Apatlaco
+16513,2901,3,Del Puente
+16514,2902,3,La Gallera
+16514,2903,3,Tetitla
+16514,2904,3,Calpulco
+16520,2478,3,La Planta
+16530,2479,3,Las Cruces
+16530,2834,3,Las Flores
+16533,2905,3,Ahualapa
+16550,2481,1,Valle de Santa María
+16600,2482,2,San Gregorio Atlapulco
+16604,2906,3,San Andrés
+16605,2907,3,Los Reyes
+16606,2908,3,3 de Mayo
+16607,2909,3,San Antonio
+16609,2483,3,La Candelaria
+16610,2484,2,San Luis Tlaxialtemalco
+16614,2910,3,Niños Héroes
+16615,2911,3,La Asunción
+16616,2913,3,Santa Cecilia
+16617,2912,3,San Sebastián
+16620,2485,3,San José
+16629,2487,3,La Guadalupana
+16629,2489,3,San Juan
+16630,2490,3,San Juan Moyotepec
+16640,2491,3,San Juan Minas
+16710,2494,1,Quirino Mendoza
+16720,2495,1,Del Carmen
+16739,2498,1,San Isidro
+16740,2499,1,Guadalupita
+16749,2500,1,Las Animas
+16750,2501,3,Calyequita
+16770,2502,1,San Felipe
+16776,2503,1,Santiaguito
+16776,2600,1,El Mirador
+16780,2504,1,Cerrillos Primera Sección
+16780,2602,1,El Sacrificio
+16780,2604,1,Cristo Rey
+16780,2835,1,Cerrillos Segunda Sección
+16780,2836,1,Cerrillos Tercera Sección
+16797,2508,1,Nativitas
+16799,2509,1,Las Mesitas
+16800,2510,2,San Mateo Xalpa
+16810,2515,2,San Andrés Ahuayucan
+16810,2516,1,Santa Inés
+16810,2607,1,Rosario Tlali
+16813,2914,3,El Calvario
+16840,2519,1,Santa Cruz Chavarrieta
+16850,2520,3,Chapultepec
+16860,2521,1,Santa Cruz de Guadalupe
+16880,2527,2,Santa Cecilia Tepetlapa
+16900,2530,2,San Francisco Tlalnepantla
+50010,165,1,Guadalupe
+50010,166,1,La Cruz Comalco
+50010,173,8,Los Girasoles IV
+50010,177,3,Tlacopa
+50010,178,8,Universidad
+50010,5121,3,San Angelín
+50010,5542,8,Galaxias de San Lorenzo
+50010,5545,1,El Tejocote
+50010,5546,1,El Balcón
+50010,7920,8,Los Girasoles I
+50010,8291,3,San Juan de la Cruz
+50010,8297,8,Hacienda San Agustín
+50010,8355,3,La Loma
+50010,8356,3,Del Panteón
+50010,8455,8,Villas Tepaltitlán
+50010,9094,8,Gran Morada
+50016,180,9,Jardines de la Crespa
+50016,6554,11,Parque industrial San Antonio
+50016,8357,3,De la Crespa
+50017,186,1,Rincón de San Lorenzo
+50020,191,8,Bosques de la Mora
+50020,199,2,Santiago Miltepec
+50020,201,1,3 Caminos
+50020,203,8,Valle de Santiago Residencial
+50040,216,3,La Retama
+50040,217,3,La Teresona
+50040,218,1,Unión
+50040,219,3,San Luis Obispo
+50040,220,3,San Miguel Apinahuizco
+50040,5700,1,Electricistas Locales
+50050,228,3,Zopilocalco Sur
+50060,230,1,Doctores
+50060,231,8,Lomas Altas
+50060,4703,1,Niños Héroes (Pensiones)
+50060,5533,1,San Juan Buenavista
+50060,7893,3,Huitzila
+50070,236,1,Independencia
+50070,237,1,Meteoro
+50070,5526,8,Villas Fontana I
+50070,5527,8,Villas Fontana II
+50070,5543,9,Fidel Velázquez
+50070,7894,1,Reforma y Ferrocarriles Nacionales
+50075,7895,1,Científicos
+50080,242,3,La Merced (Alameda)
+50090,244,1,5 de Mayo
+50100,252,1,Bosques de San Mateo
+50100,253,1,14 de Diciembre
+50100,256,1,La Joya
+50100,257,8,La Ribera I
+50100,258,8,La Ribera II
+50100,262,1,Niños Héroes
+50100,264,8,Parque de San Mateo
+50100,266,1,Protinbos
+50100,5110,8,Ex-Hacienda San Jorge
+50100,8358,3,Tlayaca
+50100,8359,3,Tlanepantla
+50100,8360,3,Atotonilco
+50100,9526,8,Lomas de San Mateo
+50110,272,1,Guadalupe San Buenaventura
+50110,274,1,San Buenaventura
+50110,5070,8,Real del Bosque
+50115,8361,1,Loma Bonita
+50130,288,1,Altamirano
+50130,289,1,Américas
+50130,293,1,Francisco Murguía El Ranchito
+50140,301,1,Nueva Santa María
+50140,302,1,Santa María de las Rosas
+50140,7892,1,Terminal
+50150,247,3,San Sebastián
+50150,312,1,Izcalli Toluca
+50150,313,7,Juan Beltrán
+50150,314,1,Progreso
+50150,5549,1,Comisión Federal de Electricidad
+50160,320,1,Santa Ana Tlapaltitlán
+50160,321,8,Villas de Santa Ana I
+50160,322,8,Villas de Santa Ana II
+50160,326,8,Villas de Santa Ana VI
+50160,5095,8,Villas de Santa Ana
+50170,329,1,Héroes del 5 de Mayo
+50170,335,1,El Seminario 1a Sección
+50170,336,1,El Seminario 2a Sección
+50170,338,1,El Seminario 4a Sección
+50170,339,1,El Seminario 5a Sección
+50170,340,1,Villa Hogar
+50170,5701,1,Isidro Fabela 2a Sección
+50170,7842,1,Ocho Cedros 2a Sección
+50180,342,1,Azteca
+50180,348,1,Lázaro Cárdenas
+50180,349,1,Ampliación Lázaro Cárdenas
+50180,350,1,Moderna de la Cruz
+50190,167,1,La Magdalena
+50190,354,1,Emiliano Zapata
+50190,355,1,Eva Sámano de López Mateos
+50200,175,2,San Cristóbal Huichochitlán
+50200,5538,1,La Trinidad
+50200,5552,1,Barrio San Gabriel
+50200,5554,1,Armando Neyra Chavez
+50200,8312,1,Natividad
+50200,8314,1,La Concepción
+50200,8315,1,Santa Rosa
+50200,8316,1,San José Guadalupe
+50200,8317,1,San Salvador
+50200,8466,8,Paseos del Pilar
+50205,21,1,Ejido de la Y Sección Siete A Revolución
+50205,366,1,San Diego de los Padres Cuexcontitlán
+50205,6979,10,San Diego de los Padres Otzacatipan
+50206,367,2,San Diego Linares
+50206,6974,10,La Loma Cuexcontitlán
+50209,380,6,Toluca (Licenciado Adolfo López Mateos)
+50210,11,8,Fuentes de San José
+50210,5115,8,Los Sauces I
+50210,5116,8,Los Sauces II
+50210,5117,8,Los Sauces III
+50210,5484,8,Ex Hacienda San José
+50210,5531,1,Santa Cruz Otzacatipan
+50210,5537,1,Los Sauces IV
+50210,5698,8,Los Sauces V
+50210,6467,8,Valle de la Hacienda
+50210,8262,8,Hacienda del Valle II
+50210,8267,8,Bosques de Cantabria
+50210,8324,3,La Magdalena Otzacatipan
+50210,8441,8,Villa Mane
+50210,8443,8,Hacienda del Valle I
+50210,8946,8,Valle de San José
+50214,5123,8,Villas Santín
+50214,8444,8,Balcones Santín
+50214,8445,8,Paseos Santín
+50220,8325,8,Villa Tulipanes
+50220,8439,8,Villas de San Mateo
+50220,8442,3,De Canaleja
+50223,6551,11,Parque industrial Exportec II
+50223,6552,11,Parque industrial Exportec I
+50225,5556,8,Geovillas Centenario
+50225,5688,1,Nueva San Francisco
+50225,8263,8,Bordo de las Canastas
+50226,375,2,San Pedro Totoltepec
+50226,5699,8,Hacienda La Galia
+50226,8446,8,Sor Juana Inés de la Cruz
+50226,8448,1,San Antonio Abad
+50226,8454,14,La Alameda
+50227,183,1,Misiones de Santa Esperanza
+50227,6361,8,Geovillas de San Mateo
+50227,8261,8,Rinconadas del Pilar
+50227,8280,8,Paseos de Toluca
+50227,8437,8,Villas de Santa Mónica
+50228,15,8,Crespa Town
+50228,5690,9,Geovillas de la Independencia
+50228,5696,8,Arboleda IV
+50228,5697,8,Arboleda
+50228,6303,9,Geovillas los Cedros
+50228,8432,14,Las Fuentes
+50228,8433,8,Villa de San Andrés
+50228,8434,8,Los Sabinos
+50228,8436,9,Geovillas de la Independencia II
+50228,8438,3,La Crespa
+50228,8461,8,Arboleda V
+50228,8470,9,Fuentes de la Independencia
+50228,8947,8,Las Fuentes del Ordal
+50230,4,8,Villa Toscana
+50230,373,2,San Nicolás Tolentino
+50230,8472,1,San Blas Totoltepec
+50230,8473,1,San Blas Otzacatipan
+50233,6553,11,Parque industrial Toluca 2000
+50233,8779,11,Parque industrial Vesta
+50235,5550,1,El Cerrillo Vista Hermosa
+50235,6973,3,Guadalupe Totoltepec
+50235,8459,1,San Francisco
+50240,5107,1,El Carmen Totoltepec
+50240,5109,8,El Olimpo
+50240,5120,8,Prados de Tollocan
+50240,7046,8,Los Ahuehuetes
+50245,5528,8,Villas Santa María (Galaxia)
+50245,5539,1,Jesús García Lovera El Pilar
+50245,5555,8,La Arboleda II
+50245,5689,9,Campo Real
+50245,5692,8,Los Héroes I
+50245,5695,8,La Arboleda III
+50245,8286,8,María Bonita
+50245,8449,8,Campo Real I
+50245,8450,8,Campo Real II
+50245,8451,9,Campo Real III
+50245,8452,9,Las Bugambilias
+50245,8453,9,Residencial la Joya
+50246,5548,1,El Coecillo
+50246,5693,8,Los Héroes III
+50246,5694,8,Los Héroes II
+50250,6981,10,Santa Juanita
+50250,7047,1,La Curva
+50250,7048,1,La Cañada
+50250,7843,8,Las Margaritas
+50250,7844,1,Rancho de Maya
+50250,8054,8,La Loma Residencial
+50253,8388,1,Jardines de San Pedro
+50253,8389,1,Dos Ríos
+50253,8390,1,Los Álamos
+50253,8391,1,El Calvario
+50254,8392,3,Del Panteón
+50254,8393,1,Loma Bonita
+50254,8394,1,Tlala
+50254,8395,3,La Venta
+50254,8396,3,El Mogote
+50254,8397,1,El Frontón
+50254,8398,3,El Mirador
+50254,8489,8,Balcones de San Felipe
+50255,6990,1,El Durazno
+50255,7049,1,Vista Hermosa
+50255,8270,1,Cristo Rey
+50255,8401,1,Linda Vista
+50255,8402,1,Paraje Tlalmimilolpan
+50255,8403,1,Loma Bonita
+50255,8404,1,Los Pajaritos
+50255,8405,1,Santiago Tlacotepec Centro
+50255,8406,1,El Mirador
+50255,8407,1,Santa María
+50255,8408,1,Guadalupe
+50256,8410,1,Agua Bendita
+50256,8411,1,Las Barranquitas
+50256,8412,1,El Canal
+50256,8413,1,El Calvario
+50257,8399,3,La Joya
+50257,8414,1,La Joya
+50257,8415,1,El Cruzado
+50257,8416,1,Benito Juárez
+50257,8417,1,Tollocan
+50257,8418,1,La Joya de Ignacio Esquivel
+50257,8419,1,Apilulco
+50257,8420,1,Loma Bonita
+50258,8421,1,Acuxtitla
+50258,8422,1,El Chamizal
+50258,8425,1,El Mostrante
+50258,8426,1,La Cruz
+50258,8427,1,Puxinco
+50258,8428,1,El Rosario
+50258,8429,1,Guadalupe
+50258,8430,1,Rancho Buenavista
+50258,8431,1,Paraje el Ocote
+50260,7,8,Atenea
+50260,8,8,Miramonte
+50260,5118,8,Paseos del Valle
+50260,6976,1,El Pacífico
+50260,8423,1,Capultitlán Centro
+50260,8456,8,Villas Fontana
+50260,8457,8,Villas Santa Esther
+50260,8458,8,Alejandría
+50263,8374,1,Los Pinos
+50263,8375,3,San Juan Apóstol
+50263,8376,3,De Cristo Rey
+50263,8377,3,De la Cruz
+50263,8378,3,La Virgen de Guadalupe
+50263,8379,3,San Isidro Labrador
+50263,8380,3,Del Espíritu Santo
+50263,8381,1,La Santísima Trinidad
+50264,8382,3,San José
+50264,8383,3,San Felipe de Jesús
+50264,8384,1,San Judas Tadeo
+50264,8385,1,Las Palmas
+50264,8386,1,San Pablo
+50265,5532,1,San Miguel Zacango
+50265,5534,8,Villas Santa Isabel
+50265,8362,3,Del Panteón
+50265,8363,1,Guadalupe
+50265,8364,1,Sixto Noguez
+50265,8365,1,La Loma
+50265,8366,1,Cacalomacán Centro
+50265,8367,1,La Palma
+50265,8368,1,La Capilla
+50265,8369,1,Sagrado Corazón de Jesús
+50265,8370,1,Tierra Coloradas
+50265,8371,1,San Pedro
+50265,8372,1,El Chorrito
+50265,8373,1,Del Campo
+50265,8467,1,Las Palomas
+50265,8468,1,Sor Juana Inés de la Cruz
+50266,388,2,San Antonio Buenavista
+50270,8143,3,Tepetongo
+50270,8318,1,San Pablo
+50270,8319,3,Buenavista
+50270,8321,3,Tlalnepantla
+50270,8323,3,El Pedregal
+50274,8322,1,Pueblo Nuevo (Serratón)
+50280,20,3,Los Uribe
+50280,7845,8,Junta Local de Caminos
+50280,8326,1,El Tepetate
+50280,8327,1,El Calvario
+50280,8328,1,La Peña
+50283,8336,3,El Pozo Blanco
+50283,8337,3,La Pena
+50283,8338,3,Los Cipreses
+50284,8339,1,Los Pocitos
+50284,8340,1,El Calvario
+50284,8341,1,Tenojo
+50285,370,2,San Martín Toltepec
+50285,384,3,La Palma Toltepec
+50285,5536,1,Ojo de Agua
+50285,7050,3,Zimbrones
+50285,7051,1,2 de Marzo
+50285,8307,10,San Marcos Yachihuacaltepec
+50285,8308,1,Lázaro Cárdenas
+50285,8310,16,San Isidro
+50285,9095,7,Paseos San Martín
+50285,9641,10,Almoloya de Juárez
+50290,208,1,Ejido Santa Cruz Atzcapotzaltongo
+50290,210,8,La Vega
+50290,6984,3,Jicaltepec Autopan
+50290,6987,10,Bordo Nuevo
+50290,6988,10,El Cerro del Perico
+50290,8268,3,De Jesús 1da. Sección
+50290,8335,3,De Jesús 2da. Sección
+50290,8342,3,Del Pozo
+50290,8344,1,El Cerrito
+50290,8345,1,Tejocote
+50290,8346,1,Alcaltunco
+50290,8347,1,Tanamato
+50290,8348,1,Chupascliya
+50290,8349,1,Chichipicas
+50290,8350,1,Santa Cruz Atzcapotzaltongo
+50290,8465,3,La Granja
+50293,6555,11,Parque industrial Toluca
+50294,8329,3,De Jesús 3a. Sección
+50294,8330,3,De Santa Cruz
+50294,8331,3,De Pueblo Nuevo
+50294,8332,3,De Santa María
+50294,8333,1,Tlachaloya
+50294,8471,9,Villas los Ángeles
+50295,381,2,San Cayetano Morelos
+50295,383,2,Tlachaloya
+50295,6977,3,San Carlos
+50295,6978,1,San Carlos Autopan
+50295,6980,10,San José la Costa
+50295,6982,1,Sebastián Lerdo de Tejada
+50295,6983,1,Tlachaloya 2a Sección Centro
+50295,6985,1,Aviación Autopan
+50295,6986,3,Balbuena
+50295,7053,8,San Diego
+50295,7054,8,Real de San Pablo
+50295,7055,8,Galaxia Toluca
+50295,8290,1,Cerrillo Piedras Blancas
+50295,8301,1,Las Jaras San Nicolás
+50295,8302,1,La Trinidad
+50295,8303,1,Julián Escalante
+50295,8304,3,Del Tejocote
+50295,8305,1,San Mateo
+50295,8306,3,San José Buenavista
+50295,8311,10,Xicaltepec
+55000,3420,1,San Cristóbal Centro
+55000,3421,9,Ecatepec Centro
+55000,3546,3,La Cruz de San Cristóbal
+55010,3422,2,Guadalupe Victoria
+55010,3423,1,Ampliación Guadalupe Victoria
+55010,4761,7,Villa Esmeralda
+55010,4914,9,Pozo de la Pila
+55010,4915,1,El Progreso de Guadalupe Victoria
+55010,4916,9,Rancho Victoria II
+55010,4917,8,Barrio Nuevo Tultitlán
+55010,4918,7,Rancho Victoria
+55010,6191,1,El Obraje (Diamante)
+55010,6192,1,Mathzi II
+55010,6193,1,Mathzi I
+55010,6194,1,El Diamante
+55010,6195,1,Las Piedras
+55010,6196,1,El Manchon
+55010,6197,7,Bonito las Flores
+55010,6198,1,Mathzi III
+55014,3429,8,Parque Residencial Coacalco
+55016,3426,1,La Joya
+55016,6199,9,Tío Marin
+55016,6200,9,Guadalupe Victoria
+55016,6201,9,Tía Joaquina
+55016,6203,9,Villas de la Joya
+55016,6204,9,Torres de Altavista
+55016,7984,1,Mesa de los Leones
+55017,3427,1,El Tejocote
+55018,3428,9,FOVISSSTE (José María Morelos y Pavón)
+55018,4750,8,Granja el Rosal
+55018,4758,9,Ecatepec 2000
+55018,4759,9,San Carlos
+55020,88,9,Misión de los 40
+55020,95,1,Panitzin
+55020,126,9,Sergio Méndez Arceo
+55020,3430,8,Boulevares de San Cristóbal
+55020,3432,3,El Calvario
+55020,3433,8,Boulevares la Nacional
+55020,3434,1,Tierra Blanca
+55020,4805,1,Ex-Hacienda Jauregui
+55020,4807,9,La Monera
+55020,4924,9,Magisterial 2000
+55020,4925,1,10 de Abril
+55020,4928,7,Bosques de San Javier
+55020,4932,8,La Palma II
+55020,6205,8,El Terremote
+55020,6206,8,Martell
+55020,6207,8,Bursaab
+55020,6208,8,Plazas Ecatepec
+55020,7981,8,Residencial San Cristóbal
+55020,8775,1,Tierra Blanca Segunda Sección (Ejido Ecatepec)
+55023,4710,8,Los Héroes Ecatepec Sección I
+55023,4808,8,Los Héroes Ecatepec Sección III
+55023,4809,8,Los Héroes Ecatepec Sección II
+55023,4810,8,Los Héroes Ecatepec Sección IV
+55024,32,1,Ejidos de San Cristóbal
+55024,3435,1,Ejidal Emiliano Zapata
+55025,3440,8,San Benjamin
+55025,3441,8,Santa Águeda
+55025,4929,1,Los Sauces
+55025,4930,9,Galaxia Ecatepec
+55025,5078,1,Ampliación el Carmen
+55027,3443,1,El Árbol
+55027,4920,1,La Huerta
+55028,3444,1,Vista Hermosa
+55029,3446,1,Granjas Ecatepec 1a Sección
+55029,3447,1,Granjas Ecatepec 2a Sección
+55029,4751,9,Ehécatl (Paseos de Ecatepec)
+55029,4752,1,Ejidos de San Andrés
+55029,4754,1,San Francisco de Asís
+55029,4755,1,Laguna del Rey
+55029,4756,1,Luis Donaldo Colosio
+55029,4760,1,Potrero de Rey
+55029,5077,8,Abel Martínez Montañez
+55029,6187,1,Playa Golondrinas
+55029,6188,1,Golondrinas
+55029,6189,1,Independencia
+55030,3448,3,Doce de Diciembre
+55030,3449,1,Tata Félix
+55030,3450,8,Hogares Marla
+55030,3451,9,Izcalli Ecatepec
+55030,3452,8,Ampliación Izcalli Ecatepec Tata Félix
+55030,3453,3,La Curiela
+55030,3454,3,La Mora
+55030,3460,8,La Floresta
+55030,4933,8,La Palma I
+55036,3457,1,La Panorámica
+55037,3458,3,El Capulín
+55040,3464,8,Álamos de San Cristóbal
+55040,3465,8,Boulevares Impala
+55040,3466,8,Casas Coloniales Morelos
+55040,3467,8,Fuentes de San Cristóbal
+55040,3469,9,Hogares Mexicanos
+55040,3470,8,Jardines de Ecatepec
+55040,3471,8,La Propiedad
+55040,3473,8,Renovación Jajalpa
+55040,3474,3,San Juan Alcahuacan
+55050,150,1,Vivienda del Taxista
+55050,3478,1,Adolfo Ruiz Cortines
+55050,3479,1,Aquiles Serdán
+55050,3480,8,Bosques de Ecatepec
+55050,3481,8,Residencial Fuentes de Ecatepec
+55050,3482,1,Gustavo Baz Prada
+55050,3483,9,Izcalli Jardines
+55050,3484,1,Nuevo Díaz Ordaz
+55050,3485,1,San Martín de Porres
+55050,3495,9,Rinconada San Martín
+55050,4934,8,Hacienda Santa María
+55050,6223,1,Ex Rancho Jajalpa
+55050,6225,1,Rancho Jajalpa
+55050,6226,9,Pirules de Villancico 2a Sección
+55055,3487,8,Jardines de los Báez 1a Sección
+55055,3488,8,Jardines de los Báez 2a Sección
+55055,3489,8,Jardines de los Báez 3a Sección
+55055,3490,9,Llano de los Báez
+55055,3491,1,Llano de los Báez
+55055,3492,1,Ampliación Llano de los Báez Sección Izcalli
+55055,4787,1,Jubilados y Pensionados
+55055,6216,1,El Sol de Ecatepec
+55056,3494,8,Villas de Ecatepec
+55059,3496,9,Pirules de Villancico 1a Sección
+55060,3497,8,Venta de Carpio
+55060,4788,8,La Guadalupana
+55060,4812,8,Los Héroes Ecatepec Sección V
+55060,6293,9,Privadas de Ecatepec
+55063,3499,1,Ciudad Cuauhtémoc Sección Chiconautla 3000
+55064,3500,1,Ciudad Cuauhtémoc Sección Nopalera I y II
+55064,3501,2,San Isidro Atlautenco
+55064,3502,1,Ampliación San Isidro Atlautenco
+55064,4782,8,San Isidro Atlautenco
+55064,4792,8,Vistas de Ecatepec (Sección B)
+55064,6213,8,La Venta (La Guadalupana)
+55064,6286,8,Vistas de Ecatepec (Sección A)
+55064,6301,9,Joyas de Atlautenco
+55065,3503,3,Santa Cruz Venta de Carpio
+55066,40,8,El Potrero
+55066,3504,1,Casas Reales
+55066,3505,1,Las Brisas
+55066,3507,2,Santa María Chiconautla
+55066,3522,2,Santo Tomás Chiconautla
+55066,4794,1,Zopilocalco
+55066,6288,8,Bosques de Santo Tomás
+55066,6294,9,Portal Chiconautla
+55066,6295,1,Campo Santo
+55066,6296,8,Los Ídolos
+55066,6297,1,Jaime Salvador
+55066,6298,1,La Cerca
+55066,6299,1,La Preciosa
+55066,6300,1,México Nuevo
+55067,50,1,Ciudad Cuauhtémoc Sección Geo 2000
+55067,3510,1,Ciudad Cuauhtémoc Sección Cuitlahuac
+55067,3511,1,Ciudad Cuauhtémoc Sección Embajada
+55067,3513,1,Ciudad Cuauhtémoc Sección Moctezuma
+55067,3514,1,Ciudad Cuauhtémoc Sección Quetzalcoatl
+55067,3516,1,Ciudad Cuauhtémoc Sección Tizoc
+55067,3518,1,Ciudad Cuauhtémoc Sección Tonatiuh
+55067,3519,1,Ciudad Cuauhtémoc Sección Xochiquetzal
+55067,4777,8,Los Llanetes
+55067,4789,1,Coyometla
+55067,4790,1,Niños Héroes
+55067,4943,1,Ciudad Cuauhtémoc Sección Tlaloc
+55067,6275,9,La Fortaleza
+55067,6280,8,Moneda de 100 Pesos
+55067,6282,1,Tepetzingo el Chico
+55067,6283,1,Ciudad Cuauhtémoc Sección Tepetzingo
+55067,6284,8,C.T.M. Guadalupana
+55067,6285,1,Tepopotla
+55067,6287,1,El Hoyo del Tepetate
+55068,3520,10,Santo Tomás Chiconautla
+55068,6289,8,El Hoyo
+55068,6290,1,Ignacio Pichardo Pagaza
+55068,6292,8,El Mirador
+55069,3521,1,La Preciosa
+55069,5081,1,Los Pajaritos
+55069,6272,1,La Garita
+55069,6274,1,La Cerca
+55070,27,1,19 de Septiembre
+55070,3523,8,Jardines de Morelos Sección Cerros
+55070,3524,8,Jardines de Morelos Sección Elementos
+55070,3525,8,Jardines de Morelos Sección Flores
+55070,3526,8,Jardines de Morelos Sección Fuentes
+55070,3527,8,Jardines de Morelos Sección Islas
+55070,3528,8,Jardines de Morelos Sección Bosques
+55070,3529,8,Jardines de Morelos Sección Lagos
+55070,3530,8,Jardines de Morelos Sección Montes
+55070,3531,8,Jardines de Morelos Sección Playas
+55070,3532,8,Jardines de Morelos Sección Ríos
+55070,4781,1,Llanos de Morelos I
+55070,5576,8,Villas del Sol
+55070,6218,1,Llanos de Morelos II
+55070,6219,1,Sol II
+55070,6220,8,Julia Marin
+55070,6221,8,Profopec (Polígonos VII)
+55074,143,1,Uprovi
+55074,4783,1,Viento Nuevo
+55074,4784,8,Los Alcatraces
+55074,4786,1,Los Pinos
+55074,6209,1,Ampliación 19 de Septiembre 1A Sección
+55074,6210,1,Los Cordeles
+55074,6211,1,Mexicanos Unidos II
+55074,6212,1,Ejido de Atlautenco
+55075,3534,8,Jardines de Morelos 5a Sección
+55076,5836,1,Las Américas
+55080,3536,8,El Bosque
+55080,3537,1,Francisco Villa
+55080,3538,7,Jesús Sánchez
+55080,3540,8,Nuevo Laredo
+55080,4800,1,Xochicuac II
+55080,4801,9,Lomas de Ecatepec
+55080,5578,1,Lomas de Atzolco
+55080,7980,1,San Carlos
+55084,3542,1,El Ranchito
+55085,3543,1,Viveros Tulpetlac
+55087,3545,1,Lomas de San Carlos Zona Comunal
+55090,3550,1,El Arbolito Jajalpa
+55090,3551,8,El Jaguey
+55090,3552,1,San José Jajalpa
+55090,3553,9,Jajalpa
+55090,3554,1,Las Palmas Ecatepec
+55090,3555,8,Los Laureles
+55090,3556,1,Obrera Jajalpa
+55090,3557,8,Jajalpa Olímpica
+55090,3559,8,Río Piedras
+55090,4952,8,Bonito Ecatepec
+55090,6227,1,El Pocito
+55090,6228,9,Ecatepec 40 Casas
+55095,3560,11,Jajalpa
+55100,3562,8,Jardines de Cerro Gordo
+55100,3563,1,Los Reyes Ecatepec
+55100,3564,8,Río de Luz
+55100,3565,8,Industrias Ecatepec
+55100,3567,7,Tulpetlac
+55100,3570,1,Francisco I. Madero
+55100,4954,8,Villas 1o de Agosto
+55100,4955,8,Pro Revolución
+55100,4956,1,Viviendas Venta de Carpio
+55100,4958,8,Primero de Mayo
+55100,4959,1,Patrimonio Social
+55100,6257,9,Villa 1o de Mayo
+55104,3561,1,Granjas Populares Guadalupe Tulpetlac
+55105,3566,1,El Paraíso
+55105,5636,1,Ignacio L. Vallarta
+55107,3568,8,Industrias Tulpetlac
+55114,3572,1,Tolotzin I
+55115,3573,1,José María Morelos y Pavón Sagitario X
+55117,3574,1,Josefa Ortiz de Domínguez Sagitario VII
+55118,3577,1,Alfredo del Mazo
+55118,4775,1,Progreso de la Unión
+55118,4776,1,Joyas de Ecatepec
+55118,5607,1,Colonos de México (Alfredo Torres Martínez)
+55118,5611,1,Juan de la Barrera
+55118,6254,1,Ampliación Joyas de Ecatepec
+55118,6255,9,Sosa Ecatepec
+55118,7839,1,Cuchilla de la Draga
+55119,3579,1,Potrero Chico
+55119,3580,8,Valle de Ecatepec Estado de México CTM XIII
+55120,3581,8,Ciudad Azteca Sección Poniente
+55120,5080,8,Ciudad Azteca Sección Oriente
+55125,3583,9,Aldeas de Aragón I
+55125,6256,9,Aldeas de Aragón II
+55126,3584,8,Profopec (Polígono I)
+55127,3585,8,Profopec IV (Polígono IV El Cegor)
+55128,3586,1,José Antonio Torres
+55129,3587,8,La Florida (Ciudad Azteca)
+55129,6258,1,Josefa Ortiz de Domínguez
+55130,3588,8,Nuevo Paseo de San Agustín
+55130,3589,8,Nuevo Paseo de San Agustín 2a Secc
+55130,3590,8,Nuevo Paseo de San Agustín 3a Sección
+55130,3593,1,Olímpica 68 I
+55130,3595,8,Plaza de Santa Clara
+55130,6260,1,Vicente Coss Ramírez
+55130,6261,9,Ciudad y Puerto
+55130,8144,8,Nuevo Paseo San Agustín 3a B
+55135,3597,9,Laderas del Peñón
+55137,3598,9,INDECO Santa Clara (Campiñas de Aragón)
+55138,3599,8,Valle de Santiago
+55139,3600,1,Campiñas de Aragón
+55140,3601,8,Jardines de Aragón
+55140,3602,8,Rinconada de Aragón
+55146,3603,1,Tolotzin II
+55147,3604,8,Los Álamos
+55148,3605,1,Villas de Aragón
+55148,6259,9,Alborada de Aragón
+55149,3606,1,Ignacio Allende
+55158,3609,8,Profopec (Polígono II)
+55170,3611,1,Central Michoacana
+55170,3612,1,16 de Septiembre
+55170,3613,1,Sagitario IV
+55176,3614,8,Profopec (Polígono V)
+55180,3618,1,México Colonial II
+55187,3619,8,Profopec (Polígono III)
+55188,3620,1,México Colonial I
+55189,3621,1,Novela Mexicana I
+55190,3622,1,Lázaro Cárdenas V Zona
+55200,3623,1,División del Norte
+55200,3624,1,Emiliano Zapata 1a Sección
+55200,3626,1,Gustavo Díaz Ordaz
+55200,7983,1,Granjas Valle de Guadalupe Sección B
+55210,3628,1,La Estrella
+55210,3629,1,La Popular
+55210,3630,8,Valle de Anáhuac Sección A
+55218,3631,1,Cuchilla A. Rosales
+55220,3633,8,Jardines de San Gabriel
+55220,3634,1,Jardines del Tepeyac
+55220,3635,1,Vicente Guerrero
+55220,3684,1,Emiliano Zapata 1a Sección A
+55230,3636,1,La Media Luna
+55234,3637,1,La Glorieta
+55235,3638,9,Unidad Obrero CTM XIV
+55236,3615,1,Códice Mendocino II
+55236,3617,1,Códice Mendocino I
+55236,3642,1,Sagitario V
+55236,5466,1,Ampliación Códice Mendocino
+55237,3643,8,Estrella de Oriente
+55238,3644,1,Ejercito del Trabajo II
+55238,3645,8,Izcalli Santa Clara
+55238,6267,1,Sagitario I
+55238,6268,1,Felipe Ángeles (Antes Sagitario II)
+55238,6269,1,Sagitario III
+55240,3651,9,Alborada
+55240,3652,1,La Florida
+55240,3654,1,Melchor Muzquiz
+55242,3655,1,Villas Cosmos
+55243,3656,8,Haciendas de Aragón
+55244,3657,1,Parques de Aragón
+55244,3658,1,Paseos de Aragón
+55244,5054,1,Castillos de Aragón
+55245,3659,1,México Independiente
+55246,3660,8,Petroquímica Ecatepec
+55247,3661,1,Ciudad Oriente
+55247,3662,9,CROC Aragón
+55248,3663,8,Fuentes de Aragón
+55249,3665,9,Ecatepec Federación (Mártires de Río Blanco)
+55249,3666,1,Poesía Mexicana
+55260,3667,1,Nueva Aragón
+55264,3668,9,Prizo I
+55264,3669,9,Prizo II
+55264,6265,1,Fernando de Alba Nezahualpilli
+55264,6266,9,Prizo III
+55266,3671,1,México Insurgente
+55266,3672,1,México Revolucionario
+55267,3673,1,Ciudad Amanecer
+55267,3675,1,Quinto Sol
+55267,6263,8,Sauces V
+55267,6264,8,Sauces II
+55268,3676,9,Sauces VI
+55268,3677,8,Sauces Coalición
+55268,3678,1,Novela Mexicana II
+55269,3680,8,Sauces I
+55269,3681,1,México Prehispánico I
+55269,3682,1,México Prehispánico II
+55269,6262,8,Sauces P.R.I.
+55270,3632,1,Emiliano Zapata 2a Secc
+55270,3683,1,El Chamizal
+55270,3685,1,Granjas Valle de Guadalupe Sección A
+55270,3686,1,Granjas Valle de Guadalupe Sección C
+55280,3689,1,Renacimiento de Aragón
+55280,3692,8,Valle de Aragón 3ra. Sección Oriente
+55280,3693,1,Ampliación Valle de Aragón Sección A
+55280,3694,8,Valle de Aragón 3ra. Sección Poniente
+55280,4923,1,Nuevo Valle de Aragón
+55284,6271,1,Renacimiento Chico
+55287,3695,1,Fernando Alba Ixtlaxóchitl
+55288,3696,1,Nezahualpilli
+55289,3697,7,Bugambilias de Aragón
+55290,3698,8,Arboledas de Aragón
+55290,3699,1,Granjas Independencia
+55290,3700,1,Granjas Independencia Sección A
+55290,3701,1,Granjas Independencia Sección B
+55290,3702,1,Granjas Independencia Sección C
+55290,4960,1,Solidaridad 90 (Mártires de Río Blanco)
+55294,3703,9,Av. Central CROC
+55295,3704,9,Licenciado Pedro Ojeda Paullada
+55295,3705,1,Ampliación Pedro Ojeda Paullada
+55295,5608,1,Ampliación Nicolás Bravo
+55295,5610,1,Franja Valle de Guadalupe
+55296,3706,1,Nicolás Bravo
+55296,4961,9,A.S.A.
+55296,6270,9,Las Flores de Aragón
+55297,3708,1,Héroes de Granaditas
+55298,3710,1,Ejercito del Trabajo III
+55299,3711,1,Ejercito del Trabajo I
+55300,3713,1,Piedra Grande
+55308,3714,1,Benito Juárez Xalostoc Norte
+55308,6250,1,Benito Juárez La Mesa
+55310,3715,1,Cuauhtémoc Xalostoc
+55310,3716,2,San Pedro Xalostoc
+55316,3717,1,Ampliación San Pedro Xalostoc
+55317,3718,1,El Arbolito Xalostoc
+55320,3720,1,El Cardonal Xalostoc
+55320,3721,1,El Nardo
+55320,3722,11,Esfuerzo Nacional
+55320,3723,1,Santa María Xalostoc
+55330,3616,1,Tolotzin V
+55330,3725,1,5 de Septiembre
+55330,3727,1,Jardines de Xalostoc
+55330,3728,1,Las Vegas Xalostoc
+55330,3729,1,San Francisco Xalostoc
+55330,3730,1,Ampliación San Francisco Xalostoc
+55330,5661,1,Prados de Xalostoc
+55330,5662,1,La Laguna 21
+55338,3731,1,Melchor Ocampo
+55339,3732,8,Villas de Guadalupe Xalostoc
+55340,3733,1,Benito Juárez Xalostoc
+55340,3734,1,Rustica Xalostoc
+55340,3735,1,Viveros de Xalostoc
+55347,3737,1,Ampliación San José Xalostoc
+55348,3738,11,Parque Industrial Xalostoc
+55349,3739,1,Urbana Ixhuatepec
+55360,3740,1,El Salado
+55360,3741,1,San José Xalostoc
+55369,3742,1,Ampliación San Miguel Xalostoc
+55390,3743,8,Altavilla
+55390,3744,1,San Miguel Xalostoc
+55400,3746,2,Santa María Tulpetlac
+55400,6236,9,Aldeas I
+55400,6237,9,Aldeas II
+55400,6238,9,Nieves
+55400,6239,9,ISSEMYM
+55404,38,1,Ejido de Santa María Tulpetlac
+55404,72,9,Ecatepec las Fuentes
+55404,3748,1,El Charco
+55404,4962,1,El Chamizalito
+55404,4963,1,El Charco II
+55407,3756,9,Talleres Gráficos
+55407,5671,9,Cuchilla Lázaro Cárdenas
+55410,3759,1,Tecuescomac
+55410,6229,1,Lomas de San Carlos Cantera
+55410,6230,1,El Ostor
+55414,3763,1,El Parque
+55414,3765,1,Nueva Rufino Tamayo
+55414,3766,1,Tepetlac Texalpa
+55414,3767,1,La Nopalera 2a. Sección Tulpetlac
+55414,5659,1,Lomas Verdes Tlaljuyaca
+55414,5668,1,Margarita Maza de Juárez
+55415,3768,1,El Almarcigo Norte
+55415,3769,1,El Almarcigo Sur
+55415,5670,1,Ampliación Almarcigo
+55416,3770,1,Texalpa
+55416,5584,9,Benito Juárez 1ra. Sección
+55416,5585,9,Benito Juárez 2da. Sección
+55416,5586,9,Benito Juárez 3ra. Sección
+55416,5666,1,La Virgen
+55416,6234,1,Progreso Tlajoyuca
+55417,3771,1,Guadalupe Coatzochico
+55418,3772,1,Mexicalco I
+55418,3773,1,Rufino Tamayo
+55418,3774,1,Ampliación Santa María Tulpetlac
+55418,5658,1,Cuauhtémoc
+55418,5667,1,El Callejón
+55418,5669,1,Progreso Chico Tulpetlac
+55418,6231,8,Villas Tulpetlac
+55418,6232,1,Mexicalco II y IV
+55418,6233,1,Mexicalco III
+55419,3775,1,Tlatempa
+55419,6235,1,El Cortijo
+55420,3776,11,Cerro Gordo
+55425,3777,1,Cerro Gordo
+55429,3778,9,Bellavista
+55429,6244,1,Tepetzicasco
+55429,6245,1,La Cuesta Santa Clara
+55430,3779,1,José María Pino Suárez
+55430,3780,8,Jardines de Casa Nueva
+55430,5635,7,Conjunto Ejecutivo
+55430,6240,9,Junta de San Juan
+55450,3781,8,Jardines de Santa Clara
+55450,3782,8,Prados de Santa Clara
+55458,3783,7,Conjunto Guanajuato
+55459,3784,1,América Santa Clara
+55490,3785,1,Faja de Oro
+55490,3786,1,Miguel Hidalgo
+55490,6253,9,Finca San Miguel
+55498,3787,1,Héroes de la Independencia
+55500,3789,7,Conjunto Tepeyac Hidalgo
+55506,5079,1,Buenavista
+55507,3791,1,La Palma
+55508,3792,1,Ampliación Coanalco
+55508,8774,1,Coanalco Buenavista
+55509,3793,1,La Presa
+55509,5664,1,Plan de Ayala
+55510,3794,1,Tablas del Pozo
+55510,3795,1,Tepeolulco
+55510,6243,1,El Pozo
+55515,3796,1,Los Bordos
+55515,5587,1,La Teja
+55516,3797,1,Boca Barranca
+55517,3799,1,El Mirador
+55518,3800,1,La Agüita
+55518,4964,1,La Lomita
+55518,6242,1,Arboledas de Xalostoc
+55519,3801,2,San Andrés de la Cañada
+55519,4965,1,La Esperanza
+55520,3802,1,Carlos Hank González
+55530,3806,1,El Gallito
+55530,5656,1,San Jaco (El Gallito)
+55530,6246,9,Santa Clara
+55530,6247,9,El Gallito
+55540,3809,2,Santa Clara Coatitla
+55540,6251,9,Real de Santa Clara
+55540,6252,9,Rinconada de Santa Clara
+55547,3812,11,Santa Clara
+55548,3813,1,Área Zapotecas
+55548,6248,1,Cantera Guadalupana
+55548,6249,1,Dos de Octubre
+55549,3814,1,Área Santa Cruz
+57000,7880,1,Benito Juárez (La Aurora)
+57100,4543,1,Valle de Aragón
+57103,8967,1,Polígono del Bordo de Xochiaca
+57120,4545,1,Campestre Guadalupana
+57129,4547,1,Ampliación Campestre Guadalupana
+57130,70,1,Las Antenas o Claustro de Sor Juana Inés de la C.
+57130,4548,1,Impulsora Popular Avícola
+57138,45,9,Emiliano Zapata
+57138,4549,1,Canal de Sales
+57138,5687,1,Bosques de Viena
+57139,4550,1,Plazas de Aragón
+57140,4551,1,Jardines de Guadalupe
+57150,4552,1,Vergel de Guadalupe
+57158,4553,1,Joyas de Aragón
+57170,4555,1,Bosques de Aragón
+57171,4556,4,Escuela Nacional de Estudios Profesionales Aragón
+57178,4559,1,Las Armas
+57179,4560,1,Prados de Aragón
+57180,4561,1,Ciudad Lago
+57185,4562,1,Ampliación Ciudad Lago
+57185,7884,1,Ampliación Ciudad Lago El Triangulo
+57185,7885,1,Cuchilla del Tesoro
+57188,4563,9,Ampliación Ciudad Lago Asa (Antonio Alzate)
+57189,4564,1,Ampliación Ciudad Lago Comunicaciones
+57200,4565,1,El Sol
+57205,7831,1,Ciudad Jardín
+57210,4567,1,Estado de México
+57300,4568,1,Tamaulipas
+57300,4570,1,Tamaulipas Sección Virgencitas
+57310,4571,1,Tamaulipas Sección Las Flores
+57310,4572,1,Tamaulipas Sección Palmar
+57400,4574,1,El Barco Primera Sección
+57400,4575,1,El Barco Segunda Sección
+57400,4576,1,El Barco Tercera Sección
+57410,4578,1,Maravillas
+57420,4579,1,Nezahualcóyotl Primera Sección
+57420,7881,1,Nezahualcóyotl Segunda Sección
+57420,7882,1,Nezahualcóyotl Tercera Sección
+57430,4581,1,Porvenir
+57440,4582,1,Las Palmas
+57440,7822,1,Martínez del Llano
+57440,7823,1,Xochitenco
+57450,4584,1,Volcanes
+57460,4588,1,Juárez Pantitlán
+57500,4596,1,Agua Azul Grupo C Súper 4 y Súper 23
+57500,4597,1,Agua Azul Grupo A Super 4
+57500,4598,1,Central
+57500,7819,1,Agua Azul Grupo B Super 4
+57500,7820,1,Agua Azul Grupo B Super 23
+57510,4599,1,Agua Azul Sección Pirules
+57520,4600,1,Porfirio Díaz
+57530,4601,1,Modelo
+57600,4602,1,Ampliación Romero Sección Las Fuentes
+57610,4604,1,Pavón Sección Silvia
+57620,4605,1,México Primera Sección
+57620,4606,1,México Segunda Sección
+57630,4607,1,Romero
+57700,4608,1,Evolución Súper 24
+57700,7872,1,Evolución Súper 22
+57700,7873,1,Evolución Súper 43
+57700,9629,1,Evolución
+57708,4609,1,Evolución Poniente
+57709,4610,1,Ampliación Evolución
+57710,4611,1,General José Vicente Villada
+57718,4612,1,Ampliación General José Vicente Villada Oriente
+57718,7874,1,Ampliación General José Vicente Villada Súper 44
+57719,4613,1,Ampliación General José Vicente Villada Poniente
+57720,4614,1,Atlacomulco
+57730,4615,1,Metropolitana Primera Sección
+57739,4616,1,San Lorenzo
+57740,4617,1,Metropolitana Segunda Sección
+57750,4619,1,Metropolitana Tercera Sección
+57760,4620,1,Ampliación General José Vicente Villada Súper 43
+57800,4621,1,Esperanza
+57809,4622,8,Rey Nezahualcóyotl
+57810,4623,1,Izcalli Nezahualcóyotl
+57819,4629,8,Parque Industrial Nezahualcóyotl
+57820,4631,1,La Perla
+57830,4632,1,Ampliación La Perla Reforma
+57840,4634,1,Reforma
+57849,4636,1,Reforma A Sección 1
+57900,4640,1,Las Águilas
+57910,4641,1,Constitución de 1857
+57920,4642,1,Santa Martha
+57930,4643,1,Manantiales
+57940,4645,1,Loma Bonita
+57950,4646,1,Ampliación Las Águilas

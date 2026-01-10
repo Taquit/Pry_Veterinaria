@@ -9,7 +9,7 @@ import ReMascotCard from "./Cards/ReMascotCard";
 
 function Perfil(){
 
-    const [dueño,setDueño]=useState({});
+    const [dueno,setDueno]=useState({});
     const [domicilio,setDomicilio]=useState({});
     const [mascota,setMascota]=useState([]);
     const [emergencia,setEmergencia]=useState({})
@@ -18,54 +18,60 @@ function Perfil(){
     const [showContacto, setShowContacto] = useState(false);
     const [showDomicilio, setShowDomicilio] = useState(false);
     const [showMascota,setShowMascota]=useState(false)
+     
+        const fetchAll = async () => {
+    const id = Number(localStorage.getItem("id_dueño") || "0");
 
-        const fetchAll = async ()=>{
-            const id=Number(localStorage.getItem ("id_dueño")||"0")
+    console.log("ID Dueño desde localStorage:", id);
+
+    if (!id) {
+        setError("No hay id_dueño en localstorage. Inicia sesión");
+        setLoading(false);
+        return;
+    }
+
+    setLoading(true);
+    setError("");
+    
+    try {
+        // Primero, obtén los datos del dueño
+        const duenoRes = await axios.post(`http://localhost:8000/v2/get-user/`, { id_dueno: id });
+        console.log("duenoRes.data:", duenoRes.data);  
+        setDueno(duenoRes.data);
+
+
+        // Luego, con el id_domicilio, obtén la información del domicilio
+        const domeRes = await axios.post(`http://localhost:8000/v2/get-full-address/`,{id_domicilio: duenoRes.data.id_domicilio });
+        console.log("domeRes.data:", domeRes.data);
+        setDomicilio(domeRes.data);
         
-            if (!id){
-                setError("No hay id_dueño en localstorage. Inicia sesion");
-                setLoading(false)
-                return;
-            }
-            setLoading(true);
-            setError("");
-            try{
-                const [dueñoRes,domeRes,mascRes,contactRes]= await Promise.all([
-                    axios.get(`http://localhost:8000/api/due%C3%B1os/${id}/`),
-                    axios.post(`http://localhost:8000/api/get-info-dom/`,
-                    {id_dueño:id}),
-                    axios.post(`http://localhost:8000/api/get-mas-by-id/`,
-                    {id_dueño:id}),
-                    axios.post(`http://localhost:8000/api/get-info-em/`,
-                    {id_dueño:id})
-                ])  
-                
-                console.log("contactRes.data:", contactRes.data);
-                console.log("domeRes.data:", domeRes.data);
 
-                setDueño(dueñoRes.data);
-                if(contactRes.data?.ok)setEmergencia(contactRes.data)
-                    else setEmergencia(null)
-                
-                if(domeRes.data?.ok) setDomicilio(domeRes.data)
-                    else setDomicilio(null)
-                
-                if (mascRes.data  &&  mascRes.data.mascotas){
-                    setMascota(mascRes.data.mascotas);
-                    
-                }else{
-                    setMascota([])
-                    
-                }
-            }
-            catch(err){
-                setError(err.response?.data?.detail || "no se pudo cargar informacion")
-                setDomicilio(null)
-                setMascota([])
-            }finally{
-                setLoading(false)
-            }
+        // Luego, obtén las mascotas del dueño
+        const mascRes = await axios.post(`http://localhost:8000/v2/get-mascotas-by-dueno/`, { id_dueno: id });
+        console.log("mascRes.data:", mascRes.data);
+        if (mascRes.data && mascRes.data.mascotas) {
+            setMascota(mascRes.data.mascotas);
+        } else {
+            setMascota([]);
         }
+
+        // Finalmente, obtén la información del contacto de emergencia
+        const contactRes = await axios.post(`http://localhost:8000/v2/contactoemergencia/`, { id_contacto: duenoRes.data.id_dueno });
+        console.log("contactRes.data:", contactRes.data);
+        if (contactRes.data?.ok) {
+            setEmergencia(contactRes.data);
+        } else {
+            setEmergencia(null);
+        }
+    } catch (err) {
+        setError(err.response?.data?.detail || "No se pudo cargar información");
+        
+        setMascota([]);
+    } finally {
+        setLoading(false);
+    }
+};
+
     
 
     useEffect(()=>{
@@ -109,14 +115,14 @@ useEffect(() => {
     return(
         <div className="perfil-container">
             <div className="perfil-ttl">
-                <p className="perfil-nombre">Bienvenido:  {dueño.nombre} {dueño.apellido_p} {dueño.apellido_m} </p>
+                <p className="perfil-nombre">Bienvenido:  {dueno.nombre} {dueno.apellido_pat} {dueno.apellido_mat} </p>
             </div>   
             <div className="perfil-informacion">
                 <h3 className="perfil-sbttl">Datos de Contacto</h3>
                 <div className="perfil-contacto" >
                     <h4>Contacto Dueño:</h4>
-                    <p className="perfil-dato">Numero telefónico: <span className="perfil-numero">{dueño.telefono}</span></p>
-                    <p className="perfil-dato">Correo electronico: <span className="perfil-correo">{dueño.email}</span></p>
+                    <p className="perfil-dato">Numero telefónico: <span className="perfil-numero">{dueno.telefono}</span></p>
+                    <p className="perfil-dato">Correo electronico: <span className="perfil-correo">{dueno.correo}</span></p>
                     
                     
 
@@ -125,9 +131,9 @@ useEffect(() => {
                 <div className="perfil-contacto" id="perfil-direc">
                     <p className="perfil-dato">Dirección :</p> 
                     <span className="perfil-numero">
-                        { domicilio  && domicilio.nom_calle? (
+                        { domicilio  && domicilio.calle? (
                             <>
-                            {domicilio.nom_calle} #{domicilio.num_ext}, CP{domicilio.codigop}, {domicilio.d_asenta} ,{domicilio.d_mnpio}, {domicilio.d_estado}
+                            {domicilio.calle} #{domicilio.no_ext}, CP{domicilio.codigo_postal} {domicilio.nombre_asenta} ,{domicilio.nom_municipio}, {domicilio.nom_estado}
                             </>
                         ):(
                             " No hay domicilio registrado"
